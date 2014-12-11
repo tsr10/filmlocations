@@ -111,6 +111,7 @@ BOWER_INSTALLED_APPS = (
     'jquery#2.1.1',
     'typeahead.js#0.10.5',
     'handlebars#2.0.0',
+    'underscore#1.7.0',
     'qunit#1.16.0',
 )
 
