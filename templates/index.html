@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <title>SF Film Data</title>
+    <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript" src='{% static 'jquery/dist/jquery.min.js' %}'></script>
+    <script type="text/javascript" src='{% static 'bootstrap/dist/js/bootstrap.js' %}'></script>
+    <script type="text/javascript" src='{% static 'typeahead.js/dist/typeahead.bundle.min.js' %}'></script>
+    <script type="text/javascript" src='{% static 'underscore/underscore-min.js' %}'></script>
+    <script type="text/javascript" src='{% static 'handlebars/handlebars.min.js' %}'></script>
+    <script type="text/javascript" src='{% static 'js/mapstyle.js' %}'></script>
+    <script type="text/javascript" src='{% static 'js/allfilms.json' %}'></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIAjag_UIMup1J-GWy4F5jIO1RKzCQxBY">
+    </script>
+
+    <script>
+      function initialize() {
+        ///The initial map options. We start at San Francisco and hide/move a few of the controls in order to better accommodate the search bar.
+        var mapOptions = {
+          center: { lat: 37.7833, lng: -122.4167},
+          zoom: 12,
+          styles: mapstyle,
+          panControl: false,
+          zoomControl: true,
+          zoomControlOptions: {
+            position: google.maps.ControlPosition.LEFT_BOTTOM
+          },
+          mapTypeControl: true,
+          mapTypeControlOptions: {
+            position: google.maps.ControlPosition.RIGHT_BOTTOM
+          },
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+
+        ///Required to have the map correctly display.
+        $("#map-canvas").css("width", $(window).width()).css("height", $(window).height());
+
+        ///The functions that create new latLongs, markers, bounds, and infoWindows upon
+        initializeMap(allFilms, map);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+      google.maps.event.addDomListener(window, 'resize', function() {
+        var center = map.getCenter();
+        $("#map-canvas").css("width", $(window).width()).css("height", $(window).height());
+        map.setCenter(center);
+      });
+    </script>
+
+    <link rel='stylesheet' type='text/css' href="{% static 'bootstrap/dist/css/bootstrap.css' %}" />
+    <link rel='stylesheet' type='text/css' href="{% static 'css/style.css' %}" />
+
+    <link rel="shortcut icon" type="image/png" href="{{STATIC_URL}}img/favicon.ico"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="map-canvas" class="map"></div>
+    <div id="searchbox" class="searchbox">
+      <input type="text" class="form-control searchbox typeahead" id="mapsearch" placeholder="Search by film title or year&hellip;"/>
+      <!-- Contains the code that updates the markers. Code here is only run once. -->
+      <script type="text/javascript" src='{% static 'js/marker-updates.js' %}'></script>
+      <script type="text/javascript">
+      // We don't actually use the datumTokenizer or queryTokenizer, but they're required 
+      // inputs to Bloodhound. Prefetching isn't very useful in this case, as the size of the DB
+      // is too small to justify caching the results of queries (and I lack the data to know what
+      // the most common queries are)
+        var filmData = new Bloodhound({
+          datumTokenizer: function(data) {
+            return Bloodhound.tokenizers.whitespace(data.name);
+          },
+          queryTokenizer: Bloodhound.tokenizers.whitespace,
+          limit: 5,
+          remote: "autocomplete/?q=%QUERY"
+        });
+
+        filmData.initialize();
+
+        ///Customizes the display of the typeahead.
+        $('#searchbox .typeahead').typeahead({
+          autoselect: true
+        }, {
+          name: 'data',
+          displayKey: 'name',
+          source: filmData.ttAdapter(),
+          templates: {
+                        empty: [
+                          '<div class="tt-empty">',
+                          'No data matches this query.',
+                          '</div>'
+                        ].join('\n'),
+                        suggestion: Handlebars.compile('{% verbatim %}<div class="data-type">{{release_year}}</div><div class="data-name">{{title}}</div><div class="data-description">{{location}}</div>{% endverbatim %}')
+                      }
+        }).on('typeahead:selected', updateText).on('typeahead:autocompleted', updateText);
+
+        ///Updates what markers are displayed when the input changes. We can't use keyup, as this also needs to fire
+        ///when the search box is auto-completed.
+        $(document).on('input', '#mapsearch:text', function(e) {
+          var query = $('#mapsearch').val();
+          var nextQuery = {'query' : query,
+                          'refocus' : false};
+          checkQuery(nextQuery, map);
+        });
+
+        ///Fires when a typeahead entry is selected. We need to blur the input to hide the keyboard for mobile users.
+        function updateText(e, datum) {
+          $('.typeahead').typeahead('val', datum.title);
+          $('#mapsearch').blur();
+          var nextQuery = {'query' : datum.title,
+                          'refocus' : true};
+          checkQuery(nextQuery, map);
+        }
+
+      </script>
+    </div>
+  </body>
+</html>

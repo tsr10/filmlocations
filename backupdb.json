@@ -1,0 +1,5667 @@
+[
+{
+    "pk": "5489ba807f18555940b395c1", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Randall Musuem", 
+                37.7643243, 
+                -122.4384077
+            ], 
+            [
+                "555 Market St.", 
+                37.78989, 
+                -122.39993
+            ], 
+            [
+                "200 block Market Street", 
+                37.7931329, 
+                -122.3965602
+            ], 
+            [
+                "Epic Roasthouse (399 Embarcadero)", 
+                37.7992627, 
+                -122.3976732
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "2011", 
+        "title": "180"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395c4", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                37.8081372, 
+                -122.414542
+            ]
+        ], 
+        "release_year": "2004", 
+        "title": "50 First Dates"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395c7", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "20th and Folsom Streets", 
+                37.758895, 
+                -122.4147242
+            ], 
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ]
+        ], 
+        "release_year": "1915", 
+        "title": "A Jitney Elopement"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395cd", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "San Francisco Chronicle (901 Mission Street at 15th Street)", 
+                37.7666467, 
+                -122.4202653
+            ], 
+            [
+                "Broadway (North Beach)", 
+                37.7959341, 
+                -122.4219451
+            ]
+        ], 
+        "release_year": "1978", 
+        "title": "A Night Full of Rain"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395d1", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "75 California Street", 
+                37.7935488, 
+                -122.3973319
+            ]
+        ], 
+        "release_year": "1997", 
+        "title": "A Smile Like Yours"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395d2", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ], 
+            [
+                "Hills Brothers Plaza (Embarcadero at Harrison Street)", 
+                37.773256, 
+                -122.4091853
+            ]
+        ], 
+        "release_year": "1997", 
+        "title": "A Smile Like Yours "
+    }
+},
+{
+    "pk": "5489ba807f18555940b395d4", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "Burger Island (901 3rd Street, China Basin)", 
+                37.7775523, 
+                -122.3910986
+            ], 
+            [
+                "Van Ness Avenue", 
+                37.7913102, 
+                -122.422592
+            ], 
+            [
+                "Taylor and Jefferson Streets (Fisherman's Wharf)", 
+                37.8082428, 
+                -122.4158057
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Port of San Francisco ", 
+                37.7969874, 
+                -122.3951684
+            ], 
+            [
+                "Lefty O' Doul Drawbridge/ 3rd Street Bridge (3rd Street, China Basin)", 
+                37.7659631, 
+                -122.3891193
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Potrero Hill", 
+                37.7604929, 
+                -122.400869
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "1985", 
+        "title": "A View to a Kill"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395c5", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Crissy Field", 
+                37.8039069, 
+                -122.4640618
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "About a Boy"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395c6", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ]
+        ], 
+        "release_year": "1936", 
+        "title": "After the Thin Man"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395c9", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "San Francisco Bay", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ]
+        ], 
+        "release_year": "1938", 
+        "title": "Alexander's Ragtime Band"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395ca", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Curran Theater (445 Geary Street)", 
+                37.7867729, 
+                -122.410581
+            ]
+        ], 
+        "release_year": "1950", 
+        "title": "All About Eve"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395cb", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "3355 Geary Blvd.", 
+                37.781171, 
+                -122.45488
+            ]
+        ], 
+        "release_year": "1973", 
+        "title": "American Graffiti"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395cf", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Intersection of California at Polk", 
+                37.7905947, 
+                -122.4206999
+            ], 
+            [
+                "Grant between Bush and Broadway", 
+                37.7959341, 
+                -122.4219451
+            ], 
+            [
+                "Intersection of Broadway at Kearney", 
+                37.7980275, 
+                -122.4055358
+            ], 
+            [
+                "Treasure Lisland, Building #1, Ave of the Palms", 
+                37.8256269, 
+                -122.373144
+            ], 
+            [
+                "Lombard at Hyde", 
+                37.8020032, 
+                -122.4196662
+            ], 
+            [
+                "601 Buena Vista Ave West at Java St.", 
+                37.76696829999999, 
+                -122.4437158
+            ], 
+            [
+                "420 Jones St. at Ellis St.", 
+                37.7851232, 
+                -122.4126633
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Ant-Man"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395d7", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Gibb Street (Chinatown)", 
+                37.7960524, 
+                -122.4042824
+            ], 
+            [
+                "2104 Broadway", 
+                37.79465750000001, 
+                -122.4320463
+            ], 
+            [
+                "Raw Hide II (280 Seventh Street)", 
+                37.776817, 
+                -122.408527
+            ], 
+            [
+                "Pier 7 (The Embarcadero)", 
+                37.8001077, 
+                -122.3943664
+            ], 
+            [
+                "Kearney Street (Telegraph Hill)", 
+                37.7975623, 
+                -122.4054395
+            ], 
+            [
+                "Hall of Justice (850 Bryant Street)", 
+                37.775471, 
+                -122.4037169
+            ], 
+            [
+                "2930 Vallejo Street", 
+                37.794164, 
+                -122.445704
+            ], 
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "1158-70 Montgomery Street", 
+                37.789894, 
+                -122.4021795
+            ], 
+            [
+                "Steinhart Aquarium (California Academy of Sciences, Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ], 
+            [
+                "Tosca Caf\u0329 (242 Columbus Avenue)", 
+                37.7976266, 
+                -122.4058736
+            ], 
+            [
+                "Transbay Terminal (Mission Street at 1st Street)", 
+                37.7881209, 
+                -122.3954958
+            ], 
+            [
+                "Yuerba Buena Center for the Arts", 
+                37.7895222, 
+                -122.4016104
+            ]
+        ], 
+        "release_year": "1992", 
+        "title": "Basic Instinct"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395d9", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "1155 Filbert Street at Hyde", 
+                37.7999164, 
+                -122.4183705
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Bedazzled"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395db", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ], 
+            [
+                "Postcard Row, Alamo Square, Hayes Valley", 
+                37.7759073, 
+                -122.4245247
+            ], 
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ]
+        ], 
+        "release_year": "1999", 
+        "title": "Bicentennial Man"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395dc", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Harry's Bar on Fillmore", 
+                37.7807663, 
+                -122.4293132
+            ], 
+            [
+                "Nobles Alley", 
+                37.8009686, 
+                -122.4075668
+            ], 
+            [
+                "Palace of Fine Arts", 
+                37.801456, 
+                -122.448053
+            ], 
+            [
+                "1101 Filbert St. ", 
+                37.8001558, 
+                -122.4178041
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Big Eyes"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395dd", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Tosca Caf\u0329 (242 Columbus Avenue, North Beach)", 
+                37.7976266, 
+                -122.4058736
+            ]
+        ], 
+        "release_year": "2012", 
+        "title": "Big Sur"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395df", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ], 
+            [
+                "Pier 43 1/2", 
+                37.7973451, 
+                -122.3952518
+            ]
+        ], 
+        "release_year": "1962", 
+        "title": "Birdman of Alcatraz"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e0", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "303-305 S. Van Ness", 
+                37.7682683, 
+                -122.4176369
+            ], 
+            [
+                "3563 20th St.", 
+                37.7585367, 
+                -122.4204073
+            ], 
+            [
+                "2934 24th St.", 
+                37.7529387, 
+                -122.4107722
+            ], 
+            [
+                "1138 Alabama St", 
+                37.7536368, 
+                -122.4110882
+            ], 
+            [
+                "2915 16th St.", 
+                37.76515270000001, 
+                -122.4179706
+            ], 
+            [
+                "South Park", 
+                37.7815501, 
+                -122.3940353
+            ], 
+            [
+                "5546 Geary Ave", 
+                37.780586, 
+                -122.4791515
+            ], 
+            [
+                "2898 Broadway", 
+                37.793335, 
+                -122.44471
+            ], 
+            [
+                "Marina Green", 
+                37.8066235, 
+                -122.4391137
+            ], 
+            [
+                "Heald College", 
+                37.7818115, 
+                -122.403822
+            ], 
+            [
+                "200 Post St. ", 
+                37.78874, 
+                -122.4053011
+            ]
+        ], 
+        "release_year": "2013", 
+        "title": "Blue Jasmine"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e1", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "1122 Folsom Street", 
+                37.7763896, 
+                -122.4086328
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "628 Cole Street", 
+                37.7690941, 
+                -122.4506087
+            ], 
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ], 
+            [
+                "Aquatic Park (Jefferson Street)", 
+                37.8074647, 
+                -122.4208864
+            ], 
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "Lombard Street", 
+                37.802139, 
+                -122.41874
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ], 
+            [
+                "Ferry Building", 
+                37.79592299999999, 
+                -122.392052
+            ], 
+            [
+                "Fisherman's Wharf", 
+                37.8079996, 
+                -122.4177434
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Boys and Girls"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e2", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "0-100 block Halleck Street", 
+                37.7937113, 
+                -122.4000974
+            ]
+        ], 
+        "release_year": "2010", 
+        "title": "Broken-A Modern Love Story "
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e3", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Caf\u0329 Cantata (2040 Union Street)", 
+                37.7976826, 
+                -122.432994
+            ], 
+            [
+                "SF General Hospital Center (1001 Potrero Avenue, Potrero Hill)", 
+                37.7563054, 
+                -122.4045441
+            ], 
+            [
+                "Mark Hopkins Hotel (999 California Street)", 
+                37.79185289999999, 
+                -122.410811
+            ], 
+            [
+                "Marina Green (Marina District)", 
+                37.8066235, 
+                -122.4391137
+            ], 
+            [
+                "Kennedy Hotel (226 Embarcadero at Howard Street)", 
+                37.7815157, 
+                -122.4049555
+            ], 
+            [
+                "Enrico's Caf\u0329 (504 Broadway)", 
+                37.798165, 
+                -122.4056481
+            ], 
+            [
+                "Candlestick Park Exit, Highway 101", 
+                37.7865672, 
+                -122.4931463
+            ], 
+            [
+                "Brocklebank Apartments (1000 Mason Street)", 
+                37.793087, 
+                -122.41047
+            ], 
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "2700 Vallejo Street (Pacific Heights)", 
+                37.794632, 
+                -122.442027
+            ], 
+            [
+                "1153-57 Taylor Street", 
+                37.7829257, 
+                -122.4109508
+            ]
+        ], 
+        "release_year": "1968", 
+        "title": "Bullitt"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e4", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "California Academy of Sciences (Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ], 
+            [
+                "1400 18th Street", 
+                37.7627009, 
+                -122.3968332
+            ], 
+            [
+                "1627 Haight Street", 
+                37.7697077, 
+                -122.4492183
+            ]
+        ], 
+        "release_year": "1987", 
+        "title": "Burglar"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e5", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Department of Public Health (101 Grove Street at Polk, Civic Center)", 
+                37.7815533, 
+                -122.4156427
+            ], 
+            [
+                "Royan Hotel (405 Valencia Street, Mission District)", 
+                37.7664568, 
+                -122.4220317
+            ]
+        ], 
+        "release_year": "2001", 
+        "title": "By Hook or By Crook"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f1", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Palace of Fine Arts", 
+                37.801456, 
+                -122.448053
+            ]
+        ], 
+        "release_year": "2012", 
+        "title": "CSI: NY- episode 903"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e6", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "101 Henry Adams Place", 
+                37.7681527, 
+                -122.4034569
+            ]
+        ], 
+        "release_year": "1980", 
+        "title": "Can't Stop the Music"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e8", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Li Po (916 Grant Avenue at Washington, Chinatown)", 
+                37.7941378, 
+                -122.4077914
+            ]
+        ], 
+        "release_year": "1982", 
+        "title": "Chan is Missing"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395e9", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "387 Fair Oaks at 25th Street", 
+                37.750608, 
+                -122.423581
+            ]
+        ], 
+        "release_year": "2002", 
+        "title": "Cherish"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395ea", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "22nd and Carolina Streets (Potrero Hill)", 
+                37.7572327, 
+                -122.3999821
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Transbay Terminal (Mission Street at 1st Street)", 
+                37.7881209, 
+                -122.3954958
+            ]
+        ], 
+        "release_year": "1981", 
+        "title": "Chu Chu and the Philly Flash"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395eb", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "San Francisco Public Library Main Branch (100 Larkin Street)", 
+                37.779159, 
+                -122.415808
+            ]
+        ], 
+        "release_year": "1998", 
+        "title": "City of Angels"
+    }
+},
+{
+    "pk": "5489ba807f18555940b395ec", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bix Restaurant (56 Gold Street)", 
+                37.7969025, 
+                -122.4029599
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Mission Delores (3321 16th Street, Mision District)", 
+                37.7643821, 
+                -122.4268206
+            ]
+        ], 
+        "release_year": "1991", 
+        "title": "Class Action"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395ed", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Castro", 
+                37.7609082, 
+                -122.4350043
+            ]
+        ], 
+        "release_year": "1989", 
+        "title": "Common Threads: Stories From the Quilt"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395ef", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Twin Peaks", 
+                37.7544066, 
+                -122.4476845
+            ], 
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ], 
+            [
+                "Sound Factory (1st and Harrison Streets)", 
+                37.773256, 
+                -122.4091853
+            ], 
+            [
+                "Java House (Pier 40, Embarcadero)", 
+                37.7815904, 
+                -122.3866351
+            ], 
+            [
+                "Alta Plaza Park", 
+                37.7911417, 
+                -122.4376241
+            ]
+        ], 
+        "release_year": "1995", 
+        "title": "Copycat"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f0", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "24th Street between Mission Street and Potrero Avenue", 
+                37.75791419999999, 
+                -122.4067663
+            ], 
+            [
+                "La Rondalla (Valencia and 20th Streets)", 
+                37.7556165, 
+                -122.4776446
+            ]
+        ], 
+        "release_year": "1984", 
+        "title": "Crackers"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f8", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Market Street (from 6th- 4th Streets)", 
+                37.7738626, 
+                -122.4616051
+            ], 
+            [
+                "Mark Hopkins Intercontinental Hotel (1 Nob Hill Circle)", 
+                37.7914046, 
+                -122.4101888
+            ], 
+            [
+                "Westin St. Francis Hotel (335 Powell Street)", 
+                37.7878172, 
+                -122.408767
+            ], 
+            [
+                "Union Square", 
+                37.7879938, 
+                -122.4074374
+            ], 
+            [
+                "Southern Pacific Memorial Hospital (1400 Fell Street)", 
+                37.7734008, 
+                -122.4418679
+            ], 
+            [
+                "The Embarcadero/ Ferry Building", 
+                37.795105, 
+                -122.393861
+            ]
+        ], 
+        "release_year": "1950", 
+        "title": "D.O.A"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f2", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Filbert Steps, Filbert Street", 
+                37.7994987, 
+                -122.424127
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "The Malloch Apartment Building (1360 Montgomery Street)", 
+                37.8017938, 
+                -122.4043215
+            ]
+        ], 
+        "release_year": "1947", 
+        "title": "Dark Passage"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f3", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Alioto Park", 
+                37.7588666, 
+                -122.4181453
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Dawn of the Planet of the Apes"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f6", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Li Po (916 Grant Avenue at Washington, Chinatown)", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ]
+        ], 
+        "release_year": "1986", 
+        "title": "Dim Sum: A Little Bit of Heart"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f7", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Mission Delores Park (Mission District)", 
+                37.7597727, 
+                -122.427063
+            ], 
+            [
+                "Marina Green, Marina District", 
+                37.8066235, 
+                -122.4391137
+            ], 
+            [
+                "Washington Square, North Beach", 
+                37.8009182, 
+                -122.410111
+            ], 
+            [
+                "The Embarcadero", 
+                37.7992627, 
+                -122.3976732
+            ], 
+            [
+                "San Francisco Drydock (20th and Illinois Streets)", 
+                37.7561141, 
+                -122.3871395
+            ], 
+            [
+                "Portsmouth Square (Chinatown)", 
+                37.7948871, 
+                -122.4052015
+            ], 
+            [
+                "Kezar Stadium, Golden Gate Park", 
+                37.7667984, 
+                -122.456045
+            ], 
+            [
+                "Hall of Justice (850 Bryant Street)", 
+                37.775471, 
+                -122.4037169
+            ], 
+            [
+                "California Hall (625 Polk Street, Van Ness/Civic Center)", 
+                37.7814657, 
+                -122.4206462
+            ], 
+            [
+                "Bank of America Building (555 California Street)", 
+                37.7927178, 
+                -122.4040999
+            ]
+        ], 
+        "release_year": "1971", 
+        "title": "Dirty Harry"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395f9", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Webster Street", 
+                37.787926, 
+                -122.4319622
+            ], 
+            [
+                "2107 Union Street", 
+                37.7971178, 
+                -122.4340934
+            ], 
+            [
+                "2100 Green Street", 
+                37.796589, 
+                -122.433981
+            ], 
+            [
+                "Gabbiano's Restaurant (Ferry Building)", 
+                37.79592299999999, 
+                -122.392052
+            ], 
+            [
+                "Telegraph Hill Blvd (Telegraph Hill)", 
+                37.8027822, 
+                -122.4060027
+            ], 
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ]
+        ], 
+        "release_year": "1998", 
+        "title": "Doctor Doolittle"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395fa", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fort Point (Presidio, Golden Gate National Recreation Area)", 
+                37.8105374, 
+                -122.4770634
+            ], 
+            [
+                "South Park (Between 2nd and 3rd Streets, Brannan and Bryant Streets)", 
+                37.7732305, 
+                -122.4060966
+            ]
+        ], 
+        "release_year": "2003", 
+        "title": "Dopamine"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395fc", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "West Chrissy Field (Presidio, Golden Gate National Recreation Area)", 
+                37.8041767, 
+                -122.4694008
+            ], 
+            [
+                "Building 924, Presido (Golden Gate National Recreation Area)", 
+                37.8077757, 
+                -122.4748958
+            ]
+        ], 
+        "release_year": "2001", 
+        "title": "Dr. Doolittle 2"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395fd", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Baker Beach", 
+                37.7916309, 
+                -122.4845806
+            ], 
+            [
+                "Elbo Room (647 Valencia Street)", 
+                37.7625348, 
+                -122.4214496
+            ]
+        ], 
+        "release_year": "1998", 
+        "title": "Dream for an Insomniac"
+    }
+},
+{
+    "pk": "5489ba817f18555940b395fe", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "Pier 39", 
+                37.80867300000001, 
+                -122.409821
+            ]
+        ], 
+        "release_year": "1997", 
+        "title": "Dream with the Fishes"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39600", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "19 Green Street (North Beach)", 
+                37.80069, 
+                -122.3996025
+            ], 
+            [
+                "1138 Filbert Street", 
+                37.800566, 
+                -122.418279
+            ], 
+            [
+                "Castro Theatre (429 Castro Street, The Castro)", 
+                37.7620333, 
+                -122.4347591
+            ], 
+            [
+                "Mario's Bohemian Cigar Store (Washington Square)", 
+                37.8009182, 
+                -122.410111
+            ]
+        ], 
+        "release_year": "1999", 
+        "title": "Edtv"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39601", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ]
+        ], 
+        "release_year": "1979", 
+        "title": "Escape From Alcatraz"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39602", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "George Washington High School (600 32nd Avenue )", 
+                37.7777663, 
+                -122.4909162
+            ], 
+            [
+                "Wells Fargo Bank (1 California Street, Financial District)", 
+                37.7936561, 
+                -122.3964789
+            ], 
+            [
+                "The Sea Captain's Chest (Fisherman's Wharf)", 
+                37.8079996, 
+                -122.4177434
+            ], 
+            [
+                "Sheraton Palace Hotel (2 Montgomery Street, Financial District)", 
+                37.7893521, 
+                -122.4017967
+            ], 
+            [
+                "2632 Larkin Street at Lombard", 
+                37.802317, 
+                -122.421059
+            ], 
+            [
+                "100 St. Germain Avenue", 
+                37.757652, 
+                -122.450526
+            ], 
+            [
+                "1 Monthgomery Street at Post", 
+                37.7892598, 
+                -122.4022427
+            ]
+        ], 
+        "release_year": "1962", 
+        "title": "Experiment in Terror"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39604", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Nob Hill", 
+                37.793014, 
+                -122.416113
+            ], 
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "2230 Sacramento Street", 
+                37.7905823, 
+                -122.4305981
+            ]
+        ], 
+        "release_year": "1976", 
+        "title": "Family Plot"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39607", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Postcard Row (Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ]
+        ], 
+        "release_year": "1989", 
+        "title": "Fat Man and Little Boy"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39608", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "400 Montgomery Street", 
+                37.7931585, 
+                -122.4025313
+            ], 
+            [
+                "San Francisco General Hospital Medical Center (1001 Potrero Avenue, Potrero Hill)", 
+                37.7563054, 
+                -122.4045441
+            ], 
+            [
+                "Bank of America Building (555 California Street)", 
+                37.7927178, 
+                -122.4040999
+            ], 
+            [
+                "90 Gold Street", 
+                37.7967226, 
+                -122.403448
+            ], 
+            [
+                "5th and Beale Streets", 
+                37.7887056, 
+                -122.3927701
+            ], 
+            [
+                "Kohl Building (400 Montgomery Street)", 
+                37.7931585, 
+                -122.4025313
+            ]
+        ], 
+        "release_year": "1993", 
+        "title": "Fearless"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39609", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Westin St. Francis Hotel (335 Powell Street, Union Square)", 
+                37.7878172, 
+                -122.408767
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Presidio, Golden Gate National Recreation Area", 
+                37.7988737, 
+                -122.4661937
+            ], 
+            [
+                "Public Health Service Hospital (Presidio, Golden Gate National Recreation Area)", 
+                37.7988737, 
+                -122.4661937
+            ], 
+            [
+                "Bix Restaurant (56 Gold Street)", 
+                37.7969025, 
+                -122.4029599
+            ]
+        ], 
+        "release_year": "1992", 
+        "title": "Final Analysis"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3960a", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1961", 
+        "title": "Flower Drum Song"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3960b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ]
+        ], 
+        "release_year": "1997", 
+        "title": "Flubber"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3960d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Walden House, Buena Vista Park", 
+                37.7682033, 
+                -122.4417696
+            ]
+        ], 
+        "release_year": "2002", 
+        "title": "Forty Days and Forty Nights"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3960e", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "War Memorial Opera House (401 Van Ness Avenue)", 
+                37.7785837, 
+                -122.4207164
+            ], 
+            [
+                "Sokoji-Soto Zen Buddhist Temple (1691 Laguna Street)", 
+                37.7865095, 
+                -122.4285783
+            ], 
+            [
+                "Postcard Row (Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ], 
+            [
+                "Hayes Valley Care (601 Laguna Street, Hayes Valley)", 
+                37.7768864, 
+                -122.4266889
+            ], 
+            [
+                "Flood Building (870 Market Street)", 
+                37.785051, 
+                -122.4073855
+            ], 
+            [
+                "Fiesta Laundromat (898 S. Van Ness Ave., Mission)", 
+                37.7512064, 
+                -122.4183545
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Asian Art Museum (200 Larkin Street, Civic Center)", 
+                37.7802635, 
+                -122.4163842
+            ], 
+            [
+                "430 Vallejo Street (Telegraph Hill)", 
+                37.79928, 
+                -122.404632
+            ], 
+            [
+                "24th and Castro Streets (Noe Valley)", 
+                37.7512991, 
+                -122.4340749
+            ], 
+            [
+                "Fort Mason (Golden Gate National Recreation Area)", 
+                37.8074131, 
+                -122.4304447
+            ], 
+            [
+                "Fort Point, Presidio", 
+                37.8105374, 
+                -122.4770634
+            ]
+        ], 
+        "release_year": "1978", 
+        "title": "Foul Play"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3960f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Twin Peaks", 
+                37.7544066, 
+                -122.4476845
+            ], 
+            [
+                "TransAmerica Pyramid (600 Montgomery Street)", 
+                37.7952, 
+                -122.4028
+            ], 
+            [
+                "Stockton Tunnel (Stockton Street at Sutter Street)", 
+                37.7873702, 
+                -122.4234239
+            ], 
+            [
+                "Steinhart Aquarium (California Academy of Sciences, Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ], 
+            [
+                "Potrero Hill", 
+                37.7604929, 
+                -122.400869
+            ], 
+            [
+                "Nob Hill", 
+                37.793014, 
+                -122.416113
+            ], 
+            [
+                "Hyatt Regency Hotel (5 Embarcadero Center)", 
+                37.7944232, 
+                -122.3955429
+            ], 
+            [
+                "Folsom Street (SOMA)", 
+                37.7623444, 
+                -122.4150575
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Broadway and Columbus Avenue (North Beach)", 
+                37.7978825, 
+                -122.4067348
+            ]
+        ], 
+        "release_year": "1974", 
+        "title": "Freebie and the Bean"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39610", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Barbary Coast", 
+                37.784196, 
+                -122.40811
+            ]
+        ], 
+        "release_year": "1942", 
+        "title": "Gentleman Jim"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39611", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "755 Vallejo Street", 
+                37.7984572, 
+                -122.4098399
+            ], 
+            [
+                "Neiman Marcus (150 Stockton Street, Union Square)", 
+                37.787029, 
+                -122.4062671
+            ], 
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ]
+        ], 
+        "release_year": "1997", 
+        "title": "George of the Jungle"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39612", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "140 Maiden Lane", 
+                37.7882919, 
+                -122.4059318
+            ], 
+            [
+                "Neiman Marcus (150 Stockton Street, Union Square)", 
+                37.787029, 
+                -122.4062671
+            ], 
+            [
+                "Mason Street at Jackson", 
+                37.7954401, 
+                -122.4115822
+            ], 
+            [
+                "M.H. de Young Memorial Museum (Golden Gate Park)", 
+                37.7694208, 
+                -122.4862138
+            ], 
+            [
+                "Embarcadero Street Station- BART ", 
+                37.7647989, 
+                -122.4199815
+            ], 
+            [
+                "War Memorial Building (401 Van Ness Avenue)", 
+                37.7785837, 
+                -122.4207164
+            ], 
+            [
+                "Transbay Terminal (Mission Street at 1st Street)", 
+                37.7881209, 
+                -122.3954958
+            ]
+        ], 
+        "release_year": "1994", 
+        "title": "Getting Even with Dad"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39614", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Pier 7 (The Embarcadero)", 
+                37.8001077, 
+                -122.3943664
+            ], 
+            [
+                "Pier 1", 
+                37.7969874, 
+                -122.3951684
+            ], 
+            [
+                "Embarcadero & Washington", 
+                37.7992627, 
+                -122.3976732
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Godzilla"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39615", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Ross Alley (Chinatown)", 
+                37.7955378, 
+                -122.4073916
+            ], 
+            [
+                "Buena Vista Park (Haight Street at Buena Vista)", 
+                37.7681801, 
+                -122.4392915
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "University of California Hastings College of the Law", 
+                37.7808685, 
+                -122.4156292
+            ]
+        ], 
+        "release_year": "1994", 
+        "title": "Golden Gate"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39616", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bush and Sutter Streets", 
+                37.7873702, 
+                -122.4234239
+            ], 
+            [
+                "Hayes Street at Laguna", 
+                37.7764647, 
+                -122.4262985
+            ]
+        ], 
+        "release_year": "1924", 
+        "title": "Greed"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39617", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "435 23rd Street at Ilinois", 
+                37.7552805, 
+                -122.3845881
+            ], 
+            [
+                "435 23rd Street at Ilinois", 
+                37.7552805, 
+                -122.3845881
+            ], 
+            [
+                "435 23rd Street at Ilinois", 
+                37.7552805, 
+                -122.3845881
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Groove"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39618", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "634 Raycliff Terrace", 
+                37.7927793, 
+                -122.4427278
+            ]
+        ], 
+        "release_year": "1967", 
+        "title": "Guess Who's Coming to Dinner"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3961b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ]
+        ], 
+        "release_year": "1984", 
+        "title": "Hard to Hold"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3961c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Conservatory of Flowers (Golden Gate Park)", 
+                37.7726683, 
+                -122.4587578
+            ], 
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ]
+        ], 
+        "release_year": "1971", 
+        "title": "Harold and Maude"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3961e", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "San Francisco Art Institute (800 Chestnut Street)", 
+                37.803376, 
+                -122.417167
+            ]
+        ], 
+        "release_year": "1980", 
+        "title": "Heart Beat"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3961d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Stockton Tunnel (Stockton Street at Sutter Street)", 
+                37.7873702, 
+                -122.4234239
+            ], 
+            [
+                "Conservatory of Flowers (Golden Gate Park)", 
+                37.7726683, 
+                -122.4587578
+            ], 
+            [
+                "War Memorial Opera House (401 Van Ness Avenue)", 
+                37.7785837, 
+                -122.4207164
+            ], 
+            [
+                "2810 Pacific Avenue", 
+                37.792743, 
+                -122.442084
+            ]
+        ], 
+        "release_year": "1994", 
+        "title": "Heart and Souls"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39620", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Muni Metro East (501 Cesar Chavez)", 
+                37.7500028, 
+                -122.3827535
+            ]
+        ], 
+        "release_year": "2011", 
+        "title": "Hemingway & Gelhorn"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39621", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Castagnola's Restaurant (Fisherman's Wharf)", 
+                37.8079996, 
+                -122.4177434
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1974", 
+        "title": "Herbie Rides Again"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39622", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Hobart Building (582 Market Street)", 
+                37.789456, 
+                -122.4015184
+            ], 
+            [
+                "1160 Taylor Street", 
+                37.7932294, 
+                -122.4127738
+            ], 
+            [
+                "The Final Final (2990 Baker Street)", 
+                37.7985272, 
+                -122.4457624
+            ]
+        ], 
+        "release_year": "2009", 
+        "title": "Hereafter"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39623", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Conservatory of Flowers, Golden Gate Park", 
+                37.7726683, 
+                -122.4587578
+            ], 
+            [
+                "Fort Point (Presidio, Golden Gate National Recreation Area)", 
+                37.8105374, 
+                -122.4770634
+            ], 
+            [
+                "Hyatt Regency Hotel (5 Embarcadero Center)", 
+                37.7944232, 
+                -122.3955429
+            ]
+        ], 
+        "release_year": "1977", 
+        "title": "High Anxiety"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39625", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "391 Pennsylvania Avnue at 19th Street", 
+                37.761621, 
+                -122.393173
+            ]
+        ], 
+        "release_year": "2002", 
+        "title": "High Crimes"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39624", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Vesuvio Caf\u0329 (255 Columbus Avenue)", 
+                37.7974835, 
+                -122.4065082
+            ], 
+            [
+                "Bank of America Building (555 California Street)", 
+                37.7927178, 
+                -122.4040999
+            ], 
+            [
+                "Union Square", 
+                37.7879938, 
+                -122.4074374
+            ], 
+            [
+                "Maiden Lane", 
+                37.7882406, 
+                -122.4052008
+            ], 
+            [
+                "Condor Club (Columbus and Broadway)", 
+                37.7959341, 
+                -122.4219451
+            ]
+        ], 
+        "release_year": "1977", 
+        "title": "High Crimes"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39626", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Pier 39 (Fisherman's Wharf)", 
+                37.80867300000001, 
+                -122.409821
+            ]
+        ], 
+        "release_year": "1996", 
+        "title": "Homeward Bound II: Lost in San Francisco"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39629", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Vallejo Street at Sansome", 
+                37.7993922, 
+                -122.4024386
+            ], 
+            [
+                "Telegraph Hill", 
+                37.8013407, 
+                -122.4056674
+            ]
+        ], 
+        "release_year": "2003", 
+        "title": "Hulk"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3962e", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "The Ferry Building", 
+                37.79592299999999, 
+                -122.392052
+            ], 
+            [
+                "Grant Avenue (North Beach)", 
+                37.7974931, 
+                -122.406982
+            ]
+        ], 
+        "release_year": "1948", 
+        "title": "I Remember Mama"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3962f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "1 Post Street", 
+                37.788838, 
+                -122.4027153
+            ]
+        ], 
+        "release_year": "2011", 
+        "title": "I's"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3962a", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Administration Building (Treasure Island)", 
+                37.8235515, 
+                -122.370648
+            ]
+        ], 
+        "release_year": "1989", 
+        "title": "Indiana Jones and the Last Crusade"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3962b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Telegraph Hill", 
+                37.8013407, 
+                -122.4056674
+            ], 
+            [
+                "Mark Hopkins Intercontinental Hotel (1 Nob Hill Circle, Nob Hill)", 
+                37.7914046, 
+                -122.4101888
+            ]
+        ], 
+        "release_year": "1987", 
+        "title": "Innerspace"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3962c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "100 Market Street at 6th Street", 
+                37.7942635, 
+                -122.3955861
+            ], 
+            [
+                "Ferry Building", 
+                37.79592299999999, 
+                -122.392052
+            ]
+        ], 
+        "release_year": "1994", 
+        "title": "Interview With The Vampire"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3962d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bimbo's 365 Club (1025 Columbus Avenue, North Beach)", 
+                37.8037005, 
+                -122.4155782
+            ], 
+            [
+                "32 Napier Lane", 
+                37.802602, 
+                -122.403852
+            ], 
+            [
+                "1227 Montgomery Street (Telegraph Hill)", 
+                37.8004632, 
+                -122.4045382
+            ], 
+            [
+                "Broadway Tunnel (Russian Hill)", 
+                37.7964329, 
+                -122.4173931
+            ], 
+            [
+                "United Nations Plaza (Civic Center)", 
+                37.7800112, 
+                -122.4136578
+            ], 
+            [
+                "Department of Public Health (101 Grove Street at Polk, Civic Center)", 
+                37.7815533, 
+                -122.4156427
+            ], 
+            [
+                "720 Steiner Street (Hayes Valley)", 
+                37.776381, 
+                -122.432742
+            ], 
+            [
+                "Pier 33 (Embarcadero)", 
+                37.8078175, 
+                -122.4046414
+            ], 
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Hamlin Hotel (385 Eddy Street)", 
+                37.78356, 
+                -122.413863
+            ], 
+            [
+                "Lafayette Park (Pacific Heights)", 
+                37.7916146, 
+                -122.4276133
+            ], 
+            [
+                "Postcard Row (Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ], 
+            [
+                "Ramada Plaza Hotel Downtown (1231 Market Street, Civic Center)", 
+                37.7784671, 
+                -122.4150926
+            ], 
+            [
+                "San Francisco Drydock (20th and Illinois Streets)", 
+                37.7561141, 
+                -122.3871395
+            ]
+        ], 
+        "release_year": "1978", 
+        "title": "Invasion of the Body Snatchers"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39630", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Chrissy Field", 
+                37.8039069, 
+                -122.4640618
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1955", 
+        "title": "It Came From Beneath the Sea"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39632", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Japanese Tea Garden (Hagiwara Tea Garden Drive, Golden Gate Park)", 
+                37.7702043, 
+                -122.4701584
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Palace of Fine Arts", 
+                37.801456, 
+                -122.448053
+            ], 
+            [
+                "War Memorial Opera House (401 Van Ness Avenue)", 
+                37.7785837, 
+                -122.4207164
+            ], 
+            [
+                "Washington Square (North Beach)", 
+                37.8009182, 
+                -122.410111
+            ], 
+            [
+                "Hall of Justice (850 Bryant Street)", 
+                37.775471, 
+                -122.4037169
+            ]
+        ], 
+        "release_year": "1995", 
+        "title": "Jade"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39633", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "1985", 
+        "title": "Jagged Edge"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39635", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "901 Union Street", 
+                37.79961900000001, 
+                -122.41434
+            ], 
+            [
+                "610 Rhode Island Street (Potrero Hill)", 
+                37.7619169, 
+                -122.402566
+            ], 
+            [
+                "Hang Ah Alley (Chinatown)", 
+                37.7941248, 
+                -122.4075468
+            ], 
+            [
+                "Horace Mann School (3351 23rd Street)", 
+                37.7535332, 
+                -122.4199993
+            ]
+        ], 
+        "release_year": "1993", 
+        "title": "Joy Luck Club"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39637", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Postcard Row (Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ], 
+            [
+                "2552 Hyde Street", 
+                37.804561, 
+                -122.419872
+            ], 
+            [
+                "United Nations Plaza (Civic Center)", 
+                37.7800112, 
+                -122.4136578
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Chinatown Gate", 
+                37.8052914, 
+                -122.4318383
+            ], 
+            [
+                "722 Steiner Street", 
+                37.776454, 
+                -122.432757
+            ]
+        ], 
+        "release_year": "1994", 
+        "title": "Junior"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39639", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Ferry Building", 
+                37.79592299999999, 
+                -122.392052
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Just One Night"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3963b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "2012", 
+        "title": "Knife Fight"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3963c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Lusty Lady Bar (North Beach)", 
+                37.8060532, 
+                -122.4103311
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Live Nude Girls Unite"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3963d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ], 
+            [
+                "Jawbone at 99 Rhode Island St. ", 
+                37.7689205, 
+                -122.4025612
+            ], 
+            [
+                "770 Haight St", 
+                37.771831, 
+                -122.43489
+            ], 
+            [
+                "Doc's Clock", 
+                37.7900978, 
+                -122.3905824
+            ], 
+            [
+                "Starbucks at 333 O'Farrell St.", 
+                37.7853, 
+                -122.4109
+            ], 
+            [
+                "Union Square", 
+                37.7879938, 
+                -122.4074374
+            ], 
+            [
+                "The Caf\u0329 at 2369 Market St.", 
+                37.76298910000001, 
+                -122.4343127
+            ], 
+            [
+                "Castro St. from Market to 18th St.", 
+                37.7620384, 
+                -122.41611
+            ], 
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ], 
+            [
+                "The Fairmont", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "1890 Clay St.", 
+                37.7921495, 
+                -122.4239264
+            ], 
+            [
+                "2000 Folsom", 
+                37.765015, 
+                -122.415715
+            ], 
+            [
+                "Mission Arts Center", 
+                37.7509851, 
+                -122.4185895
+            ], 
+            [
+                "2413 Harrison St.", 
+                37.75856599999999, 
+                -122.412151
+            ], 
+            [
+                "Dolores Park", 
+                37.7597032, 
+                -122.4280932
+            ], 
+            [
+                "Casa Lucas Market at 2934 24th St", 
+                37.7529387, 
+                -122.4107722
+            ], 
+            [
+                "BART from Civic Center to 24th St.", 
+                37.7525362, 
+                -122.4135358
+            ], 
+            [
+                "Presidio Church at 130 Fisher Loop", 
+                37.7992679, 
+                -122.4618982
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "222 Mason St. ", 
+                37.7860081, 
+                -122.4092959
+            ], 
+            [
+                "601 Buena Vista West", 
+                37.76696829999999, 
+                -122.4437158
+            ], 
+            [
+                "2866 24th St.", 
+                37.7529677, 
+                -122.4097206
+            ], 
+            [
+                "24th and Church St. ", 
+                37.7517046, 
+                -122.427349
+            ], 
+            [
+                "St. Francis Fountain", 
+                37.7508373, 
+                -122.4416756
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Looking"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3963e", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Marsh Theatre (1062 Valencia Street)", 
+                37.7558531, 
+                -122.4212321
+            ], 
+            [
+                "20 Hill Street", 
+                37.756288, 
+                -122.422018
+            ], 
+            [
+                "198 Gough Street", 
+                37.7750315, 
+                -122.422605
+            ]
+        ], 
+        "release_year": "2011", 
+        "title": "Love & Taxes"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3963f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Broadway Tunnel (Russian Hill)", 
+                37.7964329, 
+                -122.4173931
+            ], 
+            [
+                "18th Street Overpass (Potrero Hill)", 
+                37.761467, 
+                -122.428416
+            ], 
+            [
+                "2190 Washington Street (Pacific Heights)", 
+                37.792541, 
+                -122.429151
+            ], 
+            [
+                "Cost Plus World Market (2552 Taylor Street)", 
+                37.805808, 
+                -122.414384
+            ], 
+            [
+                "Vermont Street between 20th and 22nd Streets", 
+                37.7558338, 
+                -122.4122209
+            ], 
+            [
+                "San Francisco Drydock (20th and Illinois Streets)", 
+                37.7561141, 
+                -122.3871395
+            ], 
+            [
+                "Pacific Heights Towers (2200 Sacramento Street, Pacific Heights)", 
+                37.790681, 
+                -122.429498
+            ], 
+            [
+                "Lefty O' Doul Drawbridge/ 3rd Street Bridge (3rd Street, China Basin)", 
+                37.7659631, 
+                -122.3891193
+            ], 
+            [
+                "Hall of Justice (850 Bryant Street)", 
+                37.775471, 
+                -122.4037169
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1973", 
+        "title": "Magnum Force"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39640", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "On Board the SS President Cleveland, docked at Pier 50", 
+                37.773704, 
+                -122.3847473
+            ]
+        ], 
+        "release_year": "1964", 
+        "title": "Marnie"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39641", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ], 
+            [
+                "Asian Art Museum (200 Larkin Street, Civic Center)", 
+                37.7802635, 
+                -122.4163842
+            ], 
+            [
+                "722 Steiner Street (Postcard Row, Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ]
+        ], 
+        "release_year": "1985", 
+        "title": "Maxie"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39643", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bush Street at Jones", 
+                37.7895596, 
+                -122.4137276
+            ]
+        ], 
+        "release_year": "1997", 
+        "title": "Metro"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39644", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ]
+        ], 
+        "release_year": "1960", 
+        "title": "Midnight Lace"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39645", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Lower Haight Street", 
+                37.7712749, 
+                -122.4371285
+            ], 
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ], 
+            [
+                "El Camino Del Mar", 
+                37.7857816, 
+                -122.4962215
+            ], 
+            [
+                "424 Sansome Street", 
+                37.79422470000001, 
+                -122.4013805
+            ], 
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Duboce Park", 
+                37.7694223, 
+                -122.433453
+            ]
+        ], 
+        "release_year": "2008", 
+        "title": "Milk"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39646", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The 500 Club (500 Guerrero Street, Mission District)", 
+                37.7630363, 
+                -122.4241888
+            ], 
+            [
+                "Mission Delores Park (Mission District)", 
+                37.7597727, 
+                -122.427063
+            ]
+        ], 
+        "release_year": "2001", 
+        "title": "Mission (aka City of Bars)"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39648", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ]
+        ], 
+        "release_year": "1996", 
+        "title": "Mother"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39649", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "520-522A Green Street at Grant Street", 
+                37.7997174, 
+                -122.4074187
+            ], 
+            [
+                "100 Embarcadero Street", 
+                37.8040671, 
+                -122.4033978
+            ], 
+            [
+                "516 Green Street", 
+                37.7998378, 
+                -122.4078056
+            ], 
+            [
+                "1200 Washington Street at Taylor Street", 
+                37.7944792, 
+                -122.4131705
+            ], 
+            [
+                "Hancock School (940 Filbert Street)", 
+                37.8007185, 
+                -122.4148445
+            ], 
+            [
+                "Chrissy Field", 
+                37.8039069, 
+                -122.4640618
+            ]
+        ], 
+        "release_year": "1993", 
+        "title": "Mrs. Doubtfire"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3964a", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ], 
+            [
+                "Pier 7", 
+                37.8001077, 
+                -122.3943664
+            ], 
+            [
+                "Palace of Fine Arts", 
+                37.801456, 
+                -122.448053
+            ], 
+            [
+                "Aquatic Park (Jefferson Street)", 
+                37.8074647, 
+                -122.4208864
+            ], 
+            [
+                "Alamo Square", 
+                37.77634219999999, 
+                -122.4346334
+            ]
+        ], 
+        "release_year": "1995", 
+        "title": "Murder in the First"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3964b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Hall of Justice (850 Bryant Street)", 
+                37.775471, 
+                -122.4037169
+            ], 
+            [
+                "Cameron House 920 Sacramento St. ", 
+                37.7932449, 
+                -122.4084763
+            ], 
+            [
+                "9 Calhoun Terrace", 
+                37.80080950000001, 
+                -122.4038203
+            ], 
+            [
+                "China Basin on Berry St", 
+                37.7733825, 
+                -122.3964267
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Murder in the First"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3964c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Chouguet's (2500 Washington Street)", 
+                37.7917872, 
+                -122.4345688
+            ], 
+            [
+                "Triton Hotel (342 Grant Street)", 
+                37.7903481, 
+                -122.4054242
+            ], 
+            [
+                "3122 16th Street", 
+                37.7650275, 
+                -122.422579
+            ], 
+            [
+                "Grant Avenue & Union Street", 
+                37.7974931, 
+                -122.406982
+            ]
+        ], 
+        "release_year": "2011", 
+        "title": "My Reality"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3964e", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Postcard Row (Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ]
+        ], 
+        "release_year": "2001", 
+        "title": "Never Die Twice"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39651", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "San Francisco General Hospital Medical Center (1001 Potrero Avenue, Potrero Hill)", 
+                37.7563054, 
+                -122.4045441
+            ], 
+            [
+                "Marathon Plaza (303 2nd Street)", 
+                37.784839, 
+                -122.39538
+            ], 
+            [
+                "Jones Street at Bush", 
+                37.7895596, 
+                -122.4137276
+            ], 
+            [
+                "Chrissy Field", 
+                37.8039069, 
+                -122.4640618
+            ], 
+            [
+                "Alamo Square", 
+                37.77634219999999, 
+                -122.4346334
+            ], 
+            [
+                "60 Spear Street", 
+                37.7925749, 
+                -122.3945751
+            ], 
+            [
+                "101 Henry Adams Place, 4th Floor", 
+                37.7681527, 
+                -122.4034569
+            ], 
+            [
+                "The Malloch Apartment Building (1360 Montgomery Street)", 
+                37.8017938, 
+                -122.4043215
+            ], 
+            [
+                "Wasteland Store (1600 Haight Street)", 
+                37.769961, 
+                -122.448967
+            ]
+        ], 
+        "release_year": "1995", 
+        "title": "Nine Months"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39655", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "2017 23rd Street", 
+                37.754504, 
+                -122.400041
+            ], 
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ]
+        ], 
+        "release_year": "2010", 
+        "title": "On the Road"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39656", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Financial District", 
+                37.7945742, 
+                -122.3999445
+            ], 
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ]
+        ], 
+        "release_year": "1990", 
+        "title": "Pacific Heights"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39657", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ], 
+            [
+                "Barbary Coast", 
+                37.7900411, 
+                -122.3906156
+            ], 
+            [
+                "Spreckles Mansion (2080 Washington Street, Pacific Heights)", 
+                37.792733, 
+                -122.427541
+            ]
+        ], 
+        "release_year": "1957", 
+        "title": "Pal Joey"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39659", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Columbus and Green", 
+                37.7995158, 
+                -122.4089471
+            ], 
+            [
+                "Embarcadero & Market", 
+                37.7992627, 
+                -122.3976732
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Parks and Recreation"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3965a", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Presidio (Golden Gate National Recreation Area)", 
+                37.7988737, 
+                -122.4661937
+            ], 
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ]
+        ], 
+        "release_year": "1998", 
+        "title": "Patch Adams"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3965b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bank of America (38th Street at Balboa Street)", 
+                37.7762744, 
+                -122.4849869
+            ], 
+            [
+                "Postcard Row (Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ]
+        ], 
+        "release_year": "1988", 
+        "title": "Patty Hearst"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3965c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Pier 43 1/2", 
+                37.7973451, 
+                -122.3952518
+            ], 
+            [
+                "2417 Franklin Street", 
+                37.79669, 
+                -122.425606
+            ], 
+            [
+                "Japanese Tea Garden, Hagiwara Tea Garden Drive, Golden Gate Park", 
+                37.7702043, 
+                -122.4701584
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Fort Point (Presidio, Golden Gate National Recreation Area)", 
+                37.8105374, 
+                -122.4770634
+            ], 
+            [
+                "307 Filbert Street", 
+                37.8018463, 
+                -122.4050336
+            ]
+        ], 
+        "release_year": "1968", 
+        "title": "Petulia"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3965d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ]
+        ], 
+        "release_year": "1996", 
+        "title": "Phenomenon"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3965f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "15-17 Fresno Street", 
+                37.7986421, 
+                -122.4059833
+            ], 
+            [
+                "Balboa at 22nd Avenue", 
+                37.7764455, 
+                -122.481262
+            ], 
+            [
+                "The Music Concourse (Martin Luther King, Jr. Drive, Golden Gate Park)", 
+                37.7694208, 
+                -122.4862138
+            ], 
+            [
+                "Aquatic Park (Jefferson Street)", 
+                37.8074647, 
+                -122.4208864
+            ]
+        ], 
+        "release_year": "1972", 
+        "title": "Play it Again, Sam"
+    }
+},
+{
+    "pk": "5489ba817f18555940b3965e", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Conservatory of Flowers (Golden Gate Park)", 
+                37.7726683, 
+                -122.4587578
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Playing Mona Lisa"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39660", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ], 
+            [
+                "2700 Vallejo Street (Pacific Heights)", 
+                37.794632, 
+                -122.442027
+            ]
+        ], 
+        "release_year": "1961", 
+        "title": "Pleasure of His Company"
+    }
+},
+{
+    "pk": "5489ba817f18555940b39661", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fort Point (Presidio, Golden Gate National Recreation Area)", 
+                37.8105374, 
+                -122.4770634
+            ], 
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ]
+        ], 
+        "release_year": "1967", 
+        "title": "Point Blank"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39665", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "McLaren Lodge", 
+                37.7718604, 
+                -122.4547115
+            ], 
+            [
+                "923 Vermont St.", 
+                37.757972, 
+                -122.403544
+            ], 
+            [
+                "Clement St. from 6th to 7th Ave. ", 
+                37.7734585, 
+                -122.4647989
+            ], 
+            [
+                "Clement St. from 5th and 7th Ave. ", 
+                37.7734585, 
+                -122.4647989
+            ], 
+            [
+                "Claire Lilienthal Elementary School", 
+                37.7868956, 
+                -122.4577854
+            ], 
+            [
+                "Yerba Buena Gardens", 
+                37.785094, 
+                -122.4027396
+            ], 
+            [
+                "4015 21st St", 
+                37.7558269, 
+                -122.436096
+            ], 
+            [
+                "Tank Hill Park", 
+                37.7600983, 
+                -122.4477854
+            ], 
+            [
+                "24 Hill St.", 
+                37.756276, 
+                -122.422225
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Quitters"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39667", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Magic Theater (Fort Mason, Golden Gate National Recreation Area)", 
+                37.8074131, 
+                -122.4304447
+            ]
+        ], 
+        "release_year": "2004", 
+        "title": "Red Diaper Baby"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39668", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Ave & Jones", 
+                37.7791605, 
+                -122.4352281
+            ], 
+            [
+                "Pioneer Park at Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ], 
+            [
+                "Vallejo Street Garage", 
+                37.7982292, 
+                -122.4096139
+            ]
+        ], 
+        "release_year": "2013", 
+        "title": "Red Widow"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39669", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ]
+        ], 
+        "release_year": "2005", 
+        "title": "Rent"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3966b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ], 
+            [
+                "Embarcadero Street", 
+                37.8089085, 
+                -122.41427
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Romeo Must Die"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3966c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Broadway and Kearney", 
+                37.7980275, 
+                -122.4055358
+            ], 
+            [
+                "Stage Work, 47 Julian St.", 
+                37.7674338, 
+                -122.4211415
+            ], 
+            [
+                "Asia Star Fantasy, 1126 Grant Ave.", 
+                37.7973082, 
+                -122.4069262
+            ], 
+            [
+                "2nd St. at Townsend St.", 
+                37.7806303, 
+                -122.3905427
+            ], 
+            [
+                "Jefferson St. at Powell St.", 
+                37.808611, 
+                -122.4125379
+            ], 
+            [
+                "Grant St. at Bush St.", 
+                37.7905548, 
+                -122.4056239
+            ], 
+            [
+                "Clay St. at Taylor", 
+                37.7934572, 
+                -122.4128401
+            ], 
+            [
+                "Bay St. at Polk", 
+                37.8043698, 
+                -122.423485
+            ], 
+            [
+                "Intersection of Lombard and Hyde", 
+                37.8020032, 
+                -122.4196662
+            ], 
+            [
+                "Mission between 3rd and 4th St.", 
+                37.82156150000001, 
+                -122.3685102
+            ], 
+            [
+                "555 California", 
+                37.7920903, 
+                -122.4036761
+            ], 
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ], 
+            [
+                "TransAmerica Pyramid (600 Montgomery Street)", 
+                37.7952, 
+                -122.4028
+            ], 
+            [
+                "Washington Square", 
+                37.8009182, 
+                -122.410111
+            ], 
+            [
+                "Battery Spencer", 
+                37.8276735, 
+                -122.4818286
+            ], 
+            [
+                "Pier 43", 
+                37.8090456, 
+                -122.4144998
+            ], 
+            [
+                "Vallejo St. Garage, 766 Vallejo St.", 
+                37.7986593, 
+                -122.4099628
+            ], 
+            [
+                "Fort Baker", 
+                37.8361161, 
+                -122.4789529
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "San Andreas"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3966d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Barbary Coast", 
+                37.784196, 
+                -122.40811
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "1936", 
+        "title": "San Francisco"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3966e", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Castro", 
+                37.7609082, 
+                -122.4350043
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Sausalito"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3966f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Atlas Caf\u0329, 3049 20th St.", 
+                37.758923, 
+                -122.4114353
+            ], 
+            [
+                "\"Metzger's Apt\" 151 Alice B. Toklas Pl.", 
+                37.7850997, 
+                -122.4205869
+            ], 
+            [
+                "Van Ness and 12th St.", 
+                37.7730672, 
+                -122.4187201
+            ], 
+            [
+                "Irving St. at 9th Ave.", 
+                37.7640492, 
+                -122.4663219
+            ], 
+            [
+                "Vallejo Street Garage; 766 Vallejo St.", 
+                37.7986593, 
+                -122.4099628
+            ], 
+            [
+                "Grand View Ave.", 
+                37.7533029, 
+                -122.4419191
+            ], 
+            [
+                "Romain St.", 
+                37.7562192, 
+                -122.4409989
+            ], 
+            [
+                "Corbett St.", 
+                37.7561696, 
+                -122.4432371
+            ], 
+            [
+                "Z Space Studios; 450 Florida St.", 
+                37.76370259999999, 
+                -122.411551
+            ], 
+            [
+                "20th", 
+                37.7556165, 
+                -122.4776446
+            ], 
+            [
+                "Harrison", 
+                37.773256, 
+                -122.4091853
+            ], 
+            [
+                "22nd St.", 
+                37.7558338, 
+                -122.4122209
+            ], 
+            [
+                "S. Van Ness", 
+                37.761968, 
+                -122.4172209
+            ], 
+            [
+                "16th St.", 
+                37.7655641, 
+                -122.4114895
+            ], 
+            [
+                "Folsom", 
+                37.76131900000001, 
+                -122.4149557
+            ], 
+            [
+                "18th Street between Guerrero and Valencia Streets", 
+                37.7590195, 
+                -122.4213343
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Sense8"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39671", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Ferry Building", 
+                37.79592299999999, 
+                -122.392052
+            ]
+        ], 
+        "release_year": "1980", 
+        "title": "Serial"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39672", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1999", 
+        "title": "Seven Girlfriends"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39673", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ]
+        ], 
+        "release_year": "1941", 
+        "title": "Shadow of the Thin Man"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39675", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ]
+        ], 
+        "release_year": "1982", 
+        "title": "Shoot the Moon"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39676", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "St. Paul's Church (Church Street, Noe Valley)", 
+                37.7548957, 
+                -122.4277532
+            ]
+        ], 
+        "release_year": "1992", 
+        "title": "Sister Act"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39677", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ], 
+            [
+                "Maritime Museum, Building 201 (Fort Mason)", 
+                37.80698400000001, 
+                -122.4303999
+            ]
+        ], 
+        "release_year": "1993", 
+        "title": "Sister Act 2: Back in the Habit"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39678", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Embarcadero", 
+                37.7992627, 
+                -122.3976732
+            ]
+        ], 
+        "release_year": "1992", 
+        "title": "Sneakers"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39679", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ], 
+            [
+                "City Light Bookstore (261 Columbus Avenue)", 
+                37.797601, 
+                -122.406579
+            ], 
+            [
+                "Edinburgh Castle (950 Geary Street)", 
+                37.7862257, 
+                -122.4189871
+            ], 
+            [
+                "Fog City Diner (1300 Battery Street)", 
+                37.8034628, 
+                -122.4017967
+            ], 
+            [
+                "Rocco's Corner (Columbus Street)", 
+                37.8011299, 
+                -122.411459
+            ], 
+            [
+                "San Francisco Chronicle (901 Mission Street at 15th Street)", 
+                37.7666467, 
+                -122.4202653
+            ], 
+            [
+                "St. John's Presbyterian Church (25 Lake Street)", 
+                37.7867261, 
+                -122.4596645
+            ], 
+            [
+                "Swedenborgian Church (2107 Lyon Street)", 
+                37.7902709, 
+                -122.4463422
+            ], 
+            [
+                "Vesuvio Caf\u0329 (255 Columbus Avenue)", 
+                37.7974835, 
+                -122.4065082
+            ], 
+            [
+                "Caf\u0329 Picaro 3120 16th Street", 
+                37.7650784, 
+                -122.4225222
+            ], 
+            [
+                "1462 Grant Avenue, at Union Street", 
+                37.8005374, 
+                -122.4074414
+            ], 
+            [
+                "305 Hugo Street", 
+                37.7651954, 
+                -122.4611472
+            ]
+        ], 
+        "release_year": "1993", 
+        "title": "So I Married an Axe Murderer"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3967a", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "S.S. Jeremiah O'Brien", 
+                37.809343, 
+                -122.4159487
+            ]
+        ], 
+        "release_year": "1998", 
+        "title": "Sphere"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3967b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ]
+        ], 
+        "release_year": "1982", 
+        "title": "Star Trek II : The Wrath of Khan"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3967c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Bessie Charmichael Elementary School (375 Seventh Street, SOMA)", 
+                37.7761549, 
+                -122.4067371
+            ], 
+            [
+                "500 Block of Pacific Avenue (Chinatown)", 
+                37.797336, 
+                -122.4038353
+            ], 
+            [
+                "Marina Green, Marina District", 
+                37.8066235, 
+                -122.4391137
+            ], 
+            [
+                "North Beach", 
+                37.8060532, 
+                -122.4103311
+            ], 
+            [
+                "West Harbor, Marina District", 
+                37.8071508, 
+                -122.4338604
+            ], 
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ]
+        ], 
+        "release_year": "1986", 
+        "title": "Star Trek IV: The Voyage Home"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3967d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1991", 
+        "title": "Star Trek VI: The Undiscovered County"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3967f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Hamlin Hotel (385 Eddy Street)", 
+                37.78356, 
+                -122.413863
+            ]
+        ], 
+        "release_year": "1981", 
+        "title": "Street Music"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39680", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Lombard Street", 
+                37.802139, 
+                -122.41874
+            ], 
+            [
+                "Brocklebank Apartments (1000 Mason Street)", 
+                37.793087, 
+                -122.41047
+            ], 
+            [
+                "2800 Scott Street", 
+                37.795752, 
+                -122.439917
+            ]
+        ], 
+        "release_year": "1952", 
+        "title": "Sudden Fear"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39681", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Pier 38-40, The Embarcadero", 
+                37.7815904, 
+                -122.3866351
+            ], 
+            [
+                "Near Point Lobos, El Camino Del Mar ", 
+                37.787536, 
+                -122.485139
+            ], 
+            [
+                "McDonald's Restaurant (701 3rd Street, SOMA)", 
+                37.7788249, 
+                -122.392425
+            ], 
+            [
+                "Mark Hopkins Intercontinental Hotel (1 Nob Hill Circle, Nob Hill)", 
+                37.7914046, 
+                -122.4101888
+            ], 
+            [
+                "Hall of Justice (850 Bryant Street)", 
+                37.775471, 
+                -122.4037169
+            ], 
+            [
+                "Ferry Plaza", 
+                37.7957585, 
+                -122.3918603
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Civic Center Plaza", 
+                37.7794978, 
+                -122.4176118
+            ], 
+            [
+                "The Embarcadero/Ferry Building", 
+                37.795105, 
+                -122.393861
+            ], 
+            [
+                "Bowles Franklin Galleries (765 Beach Street, Fisherman's Wharf)", 
+                37.8063237, 
+                -122.4215042
+            ]
+        ], 
+        "release_year": "1983", 
+        "title": "Sudden Impact"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39682", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1978", 
+        "title": "Superman"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39683", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "On Board the SS President Cleveland, docked at Pier 50", 
+                37.773704, 
+                -122.3847473
+            ]
+        ], 
+        "release_year": "1961", 
+        "title": "Susan Slade"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39684", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Mission Dolores Park (Mission District)", 
+                37.7597727, 
+                -122.427063
+            ], 
+            [
+                "Blooms Saloon (18th Street between Missouri and Texas Streets)", 
+                37.7583452, 
+                -122.3951754
+            ], 
+            [
+                "Chrissy Field", 
+                37.8039069, 
+                -122.4640618
+            ], 
+            [
+                "Christopher's Books (1400 18th Street)", 
+                37.7627009, 
+                -122.3968332
+            ]
+        ], 
+        "release_year": "2001", 
+        "title": "Sweet November"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39685", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Regency Building (1290 Sutter Street)", 
+                37.7879104, 
+                -122.4215079
+            ], 
+            [
+                "Broadway Studios (435 Broadway at Montgomery Street)", 
+                37.8000048, 
+                -122.4592366
+            ]
+        ], 
+        "release_year": "2003", 
+        "title": "Swing"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39686", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Powell Street", 
+                37.7965168, 
+                -122.4101149
+            ]
+        ], 
+        "release_year": "1961", 
+        "title": "Swingin' Along"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39687", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ], 
+            [
+                "Mission Street", 
+                37.7512064, 
+                -122.4183545
+            ]
+        ], 
+        "release_year": "1969", 
+        "title": "Take the Money and Run"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39688", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "16th and Utah", 
+                37.765847, 
+                -122.4065486
+            ], 
+            [
+                "Market at Mason", 
+                37.7832203, 
+                -122.4090909
+            ], 
+            [
+                "California at Larkin", 
+                37.7908132, 
+                -122.4190677
+            ], 
+            [
+                "Califorinia at Jones", 
+                37.7914461, 
+                -122.4141056
+            ], 
+            [
+                "Pine and Leavensworth", 
+                37.7902711, 
+                -122.415564
+            ], 
+            [
+                "Construction Site in front of 260 Stockton St. at Post St.", 
+                37.7863092, 
+                -122.424166
+            ], 
+            [
+                "California St. between Drumm St. and Kearny St.", 
+                37.7975623, 
+                -122.4054395
+            ], 
+            [
+                "Union Square", 
+                37.7879938, 
+                -122.4074374
+            ], 
+            [
+                "San Francisco - Oakland Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "Sutter Stockton Garage", 
+                37.78978480000001, 
+                -122.4069833
+            ], 
+            [
+                "Bush St. at Stockton St.", 
+                37.7903743, 
+                -122.4071627
+            ], 
+            [
+                "Powell St at Geary St", 
+                37.7873923, 
+                -122.4082636
+            ], 
+            [
+                "Pier 14", 
+                37.7935796, 
+                -122.3913269
+            ]
+        ], 
+        "release_year": "2014", 
+        "title": "Terminator - Genisys"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39689", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Tosca Caf\u0329 (242 Columbus Avenue, North Beach)", 
+                37.7976266, 
+                -122.4058736
+            ], 
+            [
+                "766 Sutter Street", 
+                37.788937, 
+                -122.413123
+            ]
+        ], 
+        "release_year": "2004", 
+        "title": "The Assassination of Richard Nixon"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3968a", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Roof of Cable Car (California at Front Street)", 
+                37.7966247, 
+                -122.3995127
+            ], 
+            [
+                "Steinhart Aquarium (California Academy of Sciences, Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ], 
+            [
+                "Stockton Tunnel (Stockton Street at Sutter Street)", 
+                37.7873702, 
+                -122.4234239
+            ], 
+            [
+                "Washington Square Park (North Beach)", 
+                37.800781, 
+                -122.410084
+            ], 
+            [
+                "Columbus Avenue at Green & Stockton", 
+                37.7995158, 
+                -122.4089471
+            ]
+        ], 
+        "release_year": "1999", 
+        "title": "The Bachelor"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3968b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Powell and Geary Streets (Union Square)", 
+                37.7873923, 
+                -122.4082636
+            ]
+        ], 
+        "release_year": "1963", 
+        "title": "The Birds"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3968c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "2006", 
+        "title": "The Bridge"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3968d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "The Embarcadero", 
+                37.7992627, 
+                -122.3976732
+            ]
+        ], 
+        "release_year": "1954", 
+        "title": "The Caine Mutiny"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3968f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Westin St. Francis Hotel (335 Powell Street, Union Square)", 
+                37.7878172, 
+                -122.408767
+            ]
+        ], 
+        "release_year": "1972", 
+        "title": "The Candidate"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39690", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "California Academy of Sciences (Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ], 
+            [
+                "Pier 39", 
+                37.80867300000001, 
+                -122.409821
+            ]
+        ], 
+        "release_year": "1980", 
+        "title": "The Competiton"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39691", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Cathedral Hill Hotel (1101 Van Ness Avenue, Civic Center)", 
+                37.785978, 
+                -122.422312
+            ], 
+            [
+                "Financial District", 
+                37.7945742, 
+                -122.3999445
+            ], 
+            [
+                "Neiman Marcus (150 Stockton Street, Union Square)", 
+                37.787029, 
+                -122.4062671
+            ], 
+            [
+                "One Embarcadero Center (Financial District)", 
+                37.7950137, 
+                -122.3994346
+            ], 
+            [
+                "Saks Fifth Avenue (384 Post Street, Union Square)", 
+                37.7885778, 
+                -122.4081582
+            ], 
+            [
+                "Union Square", 
+                37.7879938, 
+                -122.4074374
+            ], 
+            [
+                "Westin St. Francis Hotel (335 Powell Street, Union Square)", 
+                37.7878172, 
+                -122.408767
+            ], 
+            [
+                "Alamo Square (Hayes Valley)", 
+                37.779798, 
+                -122.413262
+            ], 
+            [
+                "Alcoa Building (1 Maritime Plaza)", 
+                37.7954924, 
+                -122.3992123
+            ], 
+            [
+                "American Roofing Co. Building (297 Kansas Street, Potrero Hill)", 
+                37.7663064, 
+                -122.4035011
+            ]
+        ], 
+        "release_year": "1974", 
+        "title": "The Conversation"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39692", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "2003", 
+        "title": "The Core"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39693", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "550 El Camino Del Mar (Seacliff)", 
+                37.787534, 
+                -122.489924
+            ], 
+            [
+                "San Francisco General Hospital Medical Center (1001 Potrero Avenue, Potrero Hill)", 
+                37.7563054, 
+                -122.4045441
+            ], 
+            [
+                "1954 Mason Street (North Beach)", 
+                37.8018702, 
+                -122.4128633
+            ], 
+            [
+                "San Francisco Drydock (The Dogpatch)", 
+                37.7591221, 
+                -122.3895378
+            ], 
+            [
+                "Washington Square Park (North Beach)", 
+                37.800781, 
+                -122.410084
+            ], 
+            [
+                "One Thousand Powell Apartments (1000 Powell Street)", 
+                37.7941048, 
+                -122.4093554
+            ], 
+            [
+                "The Cannery (281 Leavenworth Street, Fisherman's Wharf)", 
+                37.78363100000001, 
+                -122.4142969
+            ], 
+            [
+                "Posrtsmouth Square (Chinatown)", 
+                37.7948871, 
+                -122.4052015
+            ], 
+            [
+                "Pier 3 (The Embarcadero)", 
+                37.7983669, 
+                -122.3945157
+            ], 
+            [
+                "Nam Yuen Restaurant (740 Washington Street, Chinatown)", 
+                37.795426, 
+                -122.405875
+            ], 
+            [
+                "Mirant Energy, LLC (1301 Illinois Street, The Dogpatch)", 
+                37.7591221, 
+                -122.3895378
+            ], 
+            [
+                "KGO-TV ABC7 TV Studios (900 Front Street, Waterfront Historic District)", 
+                37.7598648, 
+                -122.4147977
+            ], 
+            [
+                "Hall of Justice (850 Bryant Street)", 
+                37.775471, 
+                -122.4037169
+            ], 
+            [
+                "Silver Restaurant (737 Washington Street, Chinatown)", 
+                37.7950706, 
+                -122.4061608
+            ], 
+            [
+                "Fremont Street Exit of Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "Eber Electronics (2355 Market Street, Castro)", 
+                37.7630801, 
+                -122.4341627
+            ], 
+            [
+                "710 Steiner Street (Hayes Valley)", 
+                37.776068, 
+                -122.432661
+            ]
+        ], 
+        "release_year": "1988", 
+        "title": "The Dead Pool"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39694", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Yerba Buena Island", 
+                37.8108709, 
+                -122.3668348
+            ], 
+            [
+                "700 Kansas St.", 
+                37.76075, 
+                -122.403468
+            ], 
+            [
+                "Presidio Branch Library", 
+                37.7888478, 
+                -122.4447763
+            ], 
+            [
+                "Polk and Northpoint St.", 
+                37.8053079, 
+                -122.4236801
+            ], 
+            [
+                "770 Haight St.", 
+                37.771831, 
+                -122.43489
+            ], 
+            [
+                "Tank Hill Park", 
+                37.7600983, 
+                -122.4477854
+            ], 
+            [
+                "304 Lily St.", 
+                37.77419769999999, 
+                -122.4261198
+            ]
+        ], 
+        "release_year": "2015", 
+        "title": "The Diary of a Teenage Girl"
+    }
+},
+{
+    "pk": "5489ba827f18555940b39697", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ], 
+            [
+                "Lefty O' Doul Drawbridge/ 3rd Street Bridge (3rd Street, China Basin)", 
+                37.7659631, 
+                -122.3891193
+            ], 
+            [
+                "24th Street Mini Park (Mission District)", 
+                37.7529931, 
+                -122.4085436
+            ], 
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ], 
+            [
+                "Balmy Street (Mission District)", 
+                37.7509978, 
+                -122.4123338
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Hall of Justice", 
+                37.775471, 
+                -122.4037169
+            ]
+        ], 
+        "release_year": "1976", 
+        "title": "The Enforcer"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3969a", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Ritz-Carlton Hotel (600 Stockton Street)", 
+                37.7918779, 
+                -122.4071784
+            ], 
+            [
+                "Presidio (Golden Gate National Recreation Area)", 
+                37.7988737, 
+                -122.4661937
+            ], 
+            [
+                "Merchant Exchange Building", 
+                37.792721, 
+                -122.40215
+            ], 
+            [
+                "Harrison Street (The Embarcadero)", 
+                37.773256, 
+                -122.4091853
+            ], 
+            [
+                "City Club (155 Sansome Street)", 
+                37.7916676, 
+                -122.4012528
+            ], 
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "Bank of America Building (555 California Street)", 
+                37.7927178, 
+                -122.4040999
+            ], 
+            [
+                "301 Howard Street", 
+                37.7895287, 
+                -122.3941925
+            ], 
+            [
+                "1 Bush Street", 
+                37.7922015, 
+                -122.398237
+            ], 
+            [
+                "Merchant Exchange Building (465 California Street)", 
+                37.79294660000001, 
+                -122.4021518
+            ]
+        ], 
+        "release_year": "1997", 
+        "title": "The Game"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3969b", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bay Bridge", 
+                37.7992491, 
+                -122.3765902
+            ]
+        ], 
+        "release_year": "1967", 
+        "title": "The Graduate"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3969c", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Telegraph Hill", 
+                37.8013407, 
+                -122.4056674
+            ], 
+            [
+                "1227 Montgomery Street", 
+                37.8004632, 
+                -122.4045382
+            ], 
+            [
+                "Market Street", 
+                37.7735077, 
+                -122.4212373
+            ], 
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ]
+        ], 
+        "release_year": "1951", 
+        "title": "The House on Telegraph Hill"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3969d", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Montgomery and Union St.", 
+                37.8010394, 
+                -122.4044855
+            ], 
+            [
+                "Players Arcade at Pier 39", 
+                37.80867300000001, 
+                -122.409821
+            ]
+        ], 
+        "release_year": "2013", 
+        "title": "The Internship"
+    }
+},
+{
+    "pk": "5489ba827f18555940b3969f", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Mandarin Theatre (1021 Grant Avenue)", 
+                37.796333, 
+                -122.407032
+            ], 
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ], 
+            [
+                "Steinhart Aquarium (California Academy of Sciences, Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ]
+        ], 
+        "release_year": "1947", 
+        "title": "The Lady from Shanghai"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396a2", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Steinhart Aquarium (California Academy of Sciences, Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ], 
+            [
+                "2090 Jackson Street", 
+                37.793415, 
+                -122.429428
+            ], 
+            [
+                "Mark Hopkins Intercontinental Hotel (1 Nob Hill Circle, Nob Hill)", 
+                37.7914046, 
+                -122.4101888
+            ], 
+            [
+                "Pier 41", 
+                37.80908489999999, 
+                -122.4120401
+            ], 
+            [
+                "War Memorial Opera House (401 Van Ness Avenue)", 
+                37.7785837, 
+                -122.4207164
+            ], 
+            [
+                "The Embarcadero", 
+                37.7992627, 
+                -122.3976732
+            ]
+        ], 
+        "release_year": "1958", 
+        "title": "The Lineup"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396a3", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "100 Block of Lombard Street", 
+                37.802139, 
+                -122.41874
+            ]
+        ], 
+        "release_year": "1968", 
+        "title": "The Love Bug"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396a4", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Ferry Building", 
+                37.79592299999999, 
+                -122.392052
+            ], 
+            [
+                "Burritt Alley (Off Bush Street, between Powell and Stockton Streets)", 
+                37.7967142, 
+                -122.4084476
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ]
+        ], 
+        "release_year": "1941", 
+        "title": "The Maltese Falcon"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396a5", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Pier 7/ Embarcadero", 
+                37.8001077, 
+                -122.3943664
+            ]
+        ], 
+        "release_year": "2012", 
+        "title": "The Master"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396aa", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Transbay Terminal (Mission Street at 1st Street)", 
+                37.7881209, 
+                -122.3954958
+            ]
+        ], 
+        "release_year": "1999", 
+        "title": "The Other Sister"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396ab", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Administration Building (Treasure Island)", 
+                37.8235515, 
+                -122.370648
+            ]
+        ], 
+        "release_year": "1998", 
+        "title": "The Parent Trap"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396ac", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "700 Block of Jackson Street (Chinatown)", 
+                37.7960495, 
+                -122.4066909
+            ], 
+            [
+                "900 Block of Grant Avenue (Chinatown)", 
+                37.7954105, 
+                -122.4063727
+            ], 
+            [
+                "Battery Street (The Embarcadero)", 
+                37.7976651, 
+                -122.4008843
+            ], 
+            [
+                "Civic Center Plaza", 
+                37.7794978, 
+                -122.4176118
+            ], 
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ], 
+            [
+                "Ferry Building", 
+                37.79592299999999, 
+                -122.392052
+            ], 
+            [
+                "Fort Point (Presidio, Golden Gate National Recreation Area)", 
+                37.8105374, 
+                -122.4770634
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Presidio (Golden Gate National Recreation Area)", 
+                37.7988737, 
+                -122.4661937
+            ], 
+            [
+                "Sansome Street (The Embarcadero)", 
+                37.7979131, 
+                -122.4021425
+            ], 
+            [
+                "200 Block of Sansome Street (Financial District)", 
+                37.7922626, 
+                -122.4007051
+            ]
+        ], 
+        "release_year": "1988", 
+        "title": "The Presidio"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396ad", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "2601 Lyon Street", 
+                37.794673, 
+                -122.446996
+            ], 
+            [
+                "Baker Beach", 
+                37.7916309, 
+                -122.4845806
+            ], 
+            [
+                "Fisherman's Wharf", 
+                37.8079996, 
+                -122.4177434
+            ]
+        ], 
+        "release_year": "2001", 
+        "title": "The Princess Diaries"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396ae", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Glide Memorial Church (434 Ellis St)", 
+                37.7852629, 
+                -122.411461
+            ], 
+            [
+                "Golden Gate Park Children's Playground ", 
+                37.7683778, 
+                -122.4571623
+            ]
+        ], 
+        "release_year": "2006", 
+        "title": "The Pursuit of Happyness"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396af", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Cow Palace", 
+                37.80278140000001, 
+                -122.4496016
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Financial District", 
+                37.7945742, 
+                -122.3999445
+            ]
+        ], 
+        "release_year": "1983", 
+        "title": "The Right Stuff"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396b0", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "The San Francisco Bay", 
+                37.7992491, 
+                -122.3765902
+            ], 
+            [
+                "Alcatraz Island", 
+                37.8269775, 
+                -122.4229555
+            ], 
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Coit Tower", 
+                37.8023949, 
+                -122.4058222
+            ]
+        ], 
+        "release_year": "1996", 
+        "title": "The Rock"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396b3", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "The Castro", 
+                37.7609082, 
+                -122.4350043
+            ]
+        ], 
+        "release_year": "1984", 
+        "title": "The Times of Harvey Milk"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396b4", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Bank of America Building (555 California Street, Financial District)", 
+                37.7927178, 
+                -122.4040999
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ], 
+            [
+                "2898 Vallejo Street", 
+                37.794231, 
+                -122.444878
+            ], 
+            [
+                "Hyatt Regency Hotel (5 Embarcadero Center, Financial District)", 
+                37.7944232, 
+                -122.3955429
+            ], 
+            [
+                "San Francisco Fire Station 38 (2150 California Street, Pacific Heights)", 
+                37.7894421, 
+                -122.4297667
+            ]
+        ], 
+        "release_year": "1974", 
+        "title": "The Towering Inferno"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396b5", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ], 
+            [
+                "Grace Cathedral Episcopal Church (1100 California Street)", 
+                37.7920733, 
+                -122.4134177
+            ], 
+            [
+                "The Music Concourse (Martin Luther King, Jr. Drive, Golden Gate Park)", 
+                37.7694208, 
+                -122.4862138
+            ], 
+            [
+                "Pleasant Street at Taylor", 
+                37.793018, 
+                -122.4127482
+            ], 
+            [
+                "Pier 7 (The Embarcadero)", 
+                37.8001077, 
+                -122.3943664
+            ], 
+            [
+                "Montgomery Street at Union Street", 
+                37.8010394, 
+                -122.4044855
+            ], 
+            [
+                "Japanese Tea Garden (Hagiwara Tea Garden Drive, Golden Gate Park)", 
+                37.7702043, 
+                -122.4701584
+            ]
+        ], 
+        "release_year": "2001", 
+        "title": "The Wedding Planner"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396b6", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Brocklebank Apartments (1000 Mason Street)", 
+                37.793087, 
+                -122.41047
+            ], 
+            [
+                "Montgomery Street at Union Street", 
+                37.8010394, 
+                -122.4044855
+            ], 
+            [
+                "Postcard Row (Alamo Square, Hayes Valley)", 
+                37.7759073, 
+                -122.4245247
+            ]
+        ], 
+        "release_year": "1984", 
+        "title": "The Woman In Red"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396ba", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Broadway at Osgood Street (North Beach)", 
+                37.7983359, 
+                -122.4030815
+            ], 
+            [
+                "Hyatt Regency Hotel (5 Embarcadero Center)", 
+                37.7944232, 
+                -122.3955429
+            ], 
+            [
+                "Golden Gate Park", 
+                37.7694208, 
+                -122.4862138
+            ], 
+            [
+                "Golden Gate Bridge", 
+                37.8199286, 
+                -122.4782551
+            ], 
+            [
+                "Ghiradelli Square (900 North Point Street, Fisherman's Wharf)", 
+                37.8056805, 
+                -122.4223749
+            ], 
+            [
+                "California Academy of Sciences (Golden Gate Park)", 
+                37.7698646, 
+                -122.4660947
+            ], 
+            [
+                "2340 Francisco Street", 
+                37.8010543, 
+                -122.443903
+            ], 
+            [
+                "100 Block of Union Street (Cow Hollow)", 
+                37.8014337, 
+                -122.4016633
+            ], 
+            [
+                "United Nations Plaza (Civic Center)", 
+                37.7800112, 
+                -122.4136578
+            ], 
+            [
+                "SF General Hospital Center (1001 Potrero Avenue, Potrero Hill)", 
+                37.7563054, 
+                -122.4045441
+            ], 
+            [
+                "One Embarcadero Center (Financial District)", 
+                37.7950137, 
+                -122.3994346
+            ], 
+            [
+                "Marina Green (Marina District)", 
+                37.8066235, 
+                -122.4391137
+            ]
+        ], 
+        "release_year": "1979", 
+        "title": "Time After Time"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396be", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "City Hall", 
+                37.7793176, 
+                -122.4191405
+            ]
+        ], 
+        "release_year": "1988", 
+        "title": "Tucker: The Man and His Dreams"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396c0", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "McCovey Point, China Basin Park (24 Willy Mays Plaza)", 
+                37.7781551, 
+                -122.3912407
+            ], 
+            [
+                "Veterans' War Memorial Building (401 Van Ness Avenue)", 
+                37.7785837, 
+                -122.4207164
+            ], 
+            [
+                "Vesuvio Caf\u0329 (255 Columbus Avenue)", 
+                37.7974835, 
+                -122.4065082
+            ], 
+            [
+                "The Saloon (1232 Grant Avenue)", 
+                37.7985867, 
+                -122.4070229
+            ], 
+            [
+                "Mojito (1337-1339 Grant Avenue)", 
+                37.7992973, 
+                -122.4074216
+            ], 
+            [
+                "Red's Java House (Pier 30-32, The Embarcadero)", 
+                37.7859802, 
+                -122.3860393
+            ], 
+            [
+                "Piers 30-32", 
+                37.7859802, 
+                -122.3860393
+            ], 
+            [
+                "Pier 39", 
+                37.80867300000001, 
+                -122.409821
+            ], 
+            [
+                "Pier 24", 
+                37.7890314, 
+                -122.3870413
+            ]
+        ], 
+        "release_year": "2004", 
+        "title": "Twisted"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396c1", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Mecca Restaurant (2029 Market Street)", 
+                37.7683541, 
+                -122.4275647
+            ]
+        ], 
+        "release_year": "2003", 
+        "title": "Under the Tuscan Sun"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396c2", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Tosca Caf\u0329 (242 Columbus Avenue, North Beach)", 
+                37.7976266, 
+                -122.4058736
+            ]
+        ], 
+        "release_year": "1991", 
+        "title": "Until the End of the World"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396c3", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "3567 18th Street", 
+                37.7615944, 
+                -122.4230814
+            ], 
+            [
+                "Project Artaud (Florida Street)", 
+                37.7575436, 
+                -122.4105342
+            ], 
+            [
+                "Carona Heights Park", 
+                37.7653122, 
+                -122.4385846
+            ], 
+            [
+                "544 Natoma (SOMA)", 
+                37.7795125, 
+                -122.4087872
+            ], 
+            [
+                "422 Oak Street at Laguna", 
+                37.774738, 
+                -122.426386
+            ]
+        ], 
+        "release_year": "1991", 
+        "title": "Vegas in Space"
+    }
+},
+{
+    "pk": "5489ba827f18555940b396c4", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "York Hotel (940 Sutter Street)", 
+                37.788484, 
+                -122.4159662
+            ], 
+            [
+                "1007 Gough Street", 
+                37.7825466, 
+                -122.4241443
+            ], 
+            [
+                "900 Lombard Street", 
+                37.8024756, 
+                -122.4166335
+            ], 
+            [
+                "Brocklebank Apartments (1000 Mason Street)", 
+                37.793087, 
+                -122.41047
+            ], 
+            [
+                "Claude Lane at Bush Street", 
+                37.7907065, 
+                -122.4044856
+            ], 
+            [
+                "Conservatory of Flowers (Golden Gate Park)", 
+                37.7726683, 
+                -122.4587578
+            ], 
+            [
+                "Ernie's Restaurant (847 Montgomery Street)", 
+                37.79697480000001, 
+                -122.4036592
+            ], 
+            [
+                "Fairmont Hotel (950 Mason Street, Nob Hill)", 
+                37.7924, 
+                -122.4102
+            ], 
+            [
+                "Fort Point (Presidio, Golden Gate National Recreation Area)", 
+                37.8105374, 
+                -122.4770634
+            ], 
+            [
+                "Mission Delores (3321 16th Street, Mision District)", 
+                37.7643821, 
+                -122.4268206
+            ], 
+            [
+                "Park Hill Sanatorium (351 Buena Vista Avenue East)", 
+                37.766883, 
+                -122.439604
+            ], 
+            [
+                "San Francisco Drydock (20th and Illinois Streets)", 
+                37.7561141, 
+                -122.3871395
+            ]
+        ], 
+        "release_year": "1958", 
+        "title": "Vertigo"
+    }
+},
+{
+    "pk": "5489ba837f18555940b396c5", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Treasure Island", 
+                37.8235515, 
+                -122.370648
+            ]
+        ], 
+        "release_year": "1998", 
+        "title": "What Dreams May Come"
+    }
+},
+{
+    "pk": "5489ba837f18555940b396c6", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "San Francisco Hilton (333 O'Farrell Street)", 
+                37.7853, 
+                -122.4109
+            ], 
+            [
+                "Hyde Street Pier", 
+                37.8094834, 
+                -122.4218196
+            ], 
+            [
+                "Chinatown", 
+                37.7941378, 
+                -122.4077914
+            ]
+        ], 
+        "release_year": "1972", 
+        "title": "What's Up Doc?"
+    }
+},
+{
+    "pk": "5489ba837f18555940b396c8", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Grant Street at Pacific Avenue", 
+                37.7969186, 
+                -122.4068665
+            ], 
+            [
+                "Cybelle's Pizza (1000 Bush Street)", 
+                37.7896824, 
+                -122.4140212
+            ], 
+            [
+                "1521 Masonic Avenue at Piedmont Street", 
+                37.765892, 
+                -122.444467
+            ], 
+            [
+                "Buena Vista Caf\u0329 (2765 Hyde Street)", 
+                37.8065278, 
+                -122.4207822
+            ], 
+            [
+                "Victor's Restaurant, The Westin St. Francis Hotel (335 Powell Street)", 
+                37.7878172, 
+                -122.408767
+            ], 
+            [
+                "Spring Valley School (1451 Jackson Street)", 
+                37.7939307, 
+                -122.4188493
+            ], 
+            [
+                "International Studies Academy (993 Vermont Street, Potrero Hill)", 
+                37.7571929, 
+                -122.4031392
+            ], 
+            [
+                "766 Vallejo Street at Stockton Street (North Beach)", 
+                37.7986593, 
+                -122.4099628
+            ]
+        ], 
+        "release_year": "1994", 
+        "title": "When a Man Loves a Woman"
+    }
+},
+{
+    "pk": "5489ba837f18555940b396ca", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "312 Fillmore Street", 
+                37.772407, 
+                -122.4303972
+            ]
+        ], 
+        "release_year": "2000", 
+        "title": "Woman on Top"
+    }
+},
+{
+    "pk": "5489ba837f18555940b396c9", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "Cable Car Signal Box (California Street at Powell Street)", 
+                37.7965168, 
+                -122.4101149
+            ], 
+            [
+                "819 Mason Street at Pine", 
+                37.791162, 
+                -122.41091
+            ], 
+            [
+                "772 Commercial Street at Kearney", 
+                37.7940098, 
+                -122.4058703
+            ], 
+            [
+                "1801 Laguna at Bush", 
+                37.7877516, 
+                -122.4287783
+            ], 
+            [
+                "835-865 Market Street at 5th Street", 
+                37.7840081, 
+                -122.408092
+            ]
+        ], 
+        "release_year": "1950", 
+        "title": "Woman on the Run"
+    }
+},
+{
+    "pk": "5489ba837f18555940b396cc", 
+    "model": "locationstore.film", 
+    "fields": {
+        "location": [
+            [
+                "SF Chronicle Building (901 Mission St)", 
+                37.7892921, 
+                -122.3989821
+            ]
+        ], 
+        "release_year": "2007", 
+        "title": "Zodiac"
+    }
+}
+]

@@ -1,0 +1,6 @@
+db.sqlite*
+dump*
+staticfiles*
+*.pyc
+*/*.pyc
+/static/css/.sass-cache/

@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit basic example</title>
+  <link rel="stylesheet" href="../../bower_components/qunit/qunit/qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="../../bower_components/qunit/qunit/qunit.js"></script>
+  <script src="../../static/js/allfilms.json"></script>
+  <script type="text/javascript" src='../../bower_components/jquery/dist/jquery.min.js'></script>
+  <script type="text/javascript" src='../../bower_components/bootstrap/dist/js/bootstrap.js'></script>
+  <script type="text/javascript" src='../../bower_components/typeahead.js/dist/typeahead.bundle.min.js'></script>
+  <script type="text/javascript" src='../../bower_components/handlebars/handlebars.min.js'></script>
+  <script type="text/javascript" src='../../bower_components/underscore/underscore-min.js'></script>
+  <script type="text/javascript" src='../../static/js/mapstyle.js'></script>
+  <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIAjag_UIMup1J-GWy4F5jIO1RKzCQxBY">
+    </script>
+  <script type="text/javascript" src='../../static/js/initialize.js'></script>
+  <script type="text/javascript" src='../../static/js/marker-updates.js'></script>
+  <div id="map-canvas" style="display:none;"></div>
+  <script>
+    QUnit.test( "a basic test example", function( assert ) {
+      var value = "hello";
+      assert.equal( value, "hello", "We expect value to be hello" );
+    });
+  </script>
+  <script>
+    QUnit.test( "Initial global values", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      assert.equal( FILMLOCATIONS.canUpdateData, true, "We expect value to be true" );
+      assert.equal( FILMLOCATIONS.canUpdateMarkers, true, "We expect value to be true");
+      assert.equal( FILMLOCATIONS.numberOfMarkers, films.length, "We expect value to be the number of locations");
+      
+      var mostRecentUpdate = {'counter' : 0,
+                              'mask' : fillArray(1, films.length),
+                              'refocus' : true};
+      assert.propEqual( FILMLOCATIONS.mostRecentUpdate, mostRecentUpdate, "mostRecentUpdate")
+      var nextQuery = {'query' : "",
+                        'refocus' : true};
+      assert.propEqual( FILMLOCATIONS.nextQuery, nextQuery, "nextQuery")
+      assert.deepEqual( FILMLOCATIONS.oldMask, fillArray(1, films.length));
+      assert.equal( FILMLOCATIONS.updateOrder, 1);
+      assert.equal( FILMLOCATIONS.lastWindow, undefined);
+
+    });
+  </script>
+  <script>
+    QUnit.test( "buildLatLngList", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      assert.deepEqual(latLngList.length, 5, "5 latLngs");
+    });
+  </script>
+  <script>
+    QUnit.test( "buildLatLngLists", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+      var latLngLists = buildLatLngLists(films);
+      assert.deepEqual(latLngLists.length, 2, "2 latLng lists");
+      assert.deepEqual(latLngLists[0].length, 5, "5 latLngs");
+      assert.deepEqual(latLngLists[1].length, 1, "1 latLng");
+    });
+  </script>
+  <script>
+    QUnit.test( "make latLng", function( assert ) {
+      var location = [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                    ];
+      var latLng = makeLatLng(location);
+      assert.equal( parseInt(latLng.D), -122, "We expect -122" );
+      assert.equal( parseInt(latLng.k), 37, "We expect 37" );
+    });
+  </script>
+  <script>
+      QUnit.test( "buildLatLngLists", function( assert ) {
+        var films = [
+                      {
+                          "pk": "5486eeec7f1855b6adb93c92", 
+                          "model": "locationstore.shoot", 
+                          "fields": {
+                              "location": [
+                                  [
+                                      "Randall Musuem", 
+                                      37.7643243, 
+                                      -122.4384077
+                                  ], 
+                                  [
+                                      "555 Market St.", 
+                                      37.78989, 
+                                      -122.39993
+                                  ], 
+                                  [
+                                      "200 block Market Street", 
+                                      37.7931329, 
+                                      -122.3965602
+                                  ], 
+                                  [
+                                      "Epic Roasthouse (399 Embarcadero)", 
+                                      37.7992627, 
+                                      -122.3976732
+                                  ], 
+                                  [
+                                      "City Hall", 
+                                      37.7793176, 
+                                      -122.4191405
+                                  ]
+                              ], 
+                              "title": "180"
+                          }
+                      },
+                      {
+                          "pk": "5486eeec7f1855b6adb93c95", 
+                          "model": "locationstore.shoot", 
+                          "fields": {
+                              "location": [
+                                  [
+                                      "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                      37.8081372, 
+                                      -122.414542
+                                  ]
+                              ], 
+                              "title": "50 First Dates"
+                          }
+                      }
+                    ]
+      var latLngLists = buildLatLngLists(films);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+          {});
+      var markerLists = createMarkerLists(map, latLngLists);
+      assert.deepEqual(markerLists.length, 2, "Expected length 2");
+    });
+  </script>
+  <script>
+    QUnit.test( "makeMarkerList", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var markerList = makeMarkerList(map, latLngList);
+      assert.equal(markerList.length, 5, "expected length 5");
+    });
+  </script>
+  <script>
+    QUnit.test( "makeMarker", function( assert ) {
+      var location = [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                    ];
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var latLng = makeLatLng(location);
+      var marker = makeMarker(map, latLng)
+      assert.equal( parseInt(marker.position.D), -122, "We expect value to be -122" );
+      assert.equal( parseInt(marker.position.k), 37, "We expect value to be 38");
+    });
+  </script>
+  <script>
+    QUnit.test( "extend bounds", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var markerList = makeMarkerList(map, latLngList);
+
+      var bounds = new google.maps.LatLngBounds();
+      bounds = extendBounds(markerList, bounds);
+
+      assert.equal( parseInt(bounds.getCenter().D), -122, "-122" );
+      assert.equal( parseInt(bounds.getCenter().k), 37, "-122" );
+    });
+  </script>
+  <script>
+      QUnit.test( "extendMarkerListsBounds", function( assert ) {
+        var films = [
+                      {
+                          "pk": "5486eeec7f1855b6adb93c92", 
+                          "model": "locationstore.shoot", 
+                          "fields": {
+                              "location": [
+                                  [
+                                      "Randall Musuem", 
+                                      37.7643243, 
+                                      -122.4384077
+                                  ], 
+                                  [
+                                      "555 Market St.", 
+                                      37.78989, 
+                                      -122.39993
+                                  ], 
+                                  [
+                                      "200 block Market Street", 
+                                      37.7931329, 
+                                      -122.3965602
+                                  ], 
+                                  [
+                                      "Epic Roasthouse (399 Embarcadero)", 
+                                      37.7992627, 
+                                      -122.3976732
+                                  ], 
+                                  [
+                                      "City Hall", 
+                                      37.7793176, 
+                                      -122.4191405
+                                  ]
+                              ], 
+                              "title": "180"
+                          }
+                      },
+                      {
+                          "pk": "5486eeec7f1855b6adb93c95", 
+                          "model": "locationstore.shoot", 
+                          "fields": {
+                              "location": [
+                                  [
+                                      "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                      37.8081372, 
+                                      -122.414542
+                                  ]
+                              ], 
+                              "title": "50 First Dates"
+                          }
+                      }
+                    ]
+        var latLngLists = buildLatLngLists(films);
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+        var markerLists = createMarkerLists(map, latLngLists);
+        var bounds = new google.maps.LatLngBounds();
+        bounds = extendMarkerListsBounds(markerLists, bounds);
+
+        assert.equal( parseInt(bounds.getCenter().D), -122, "-122" );
+        assert.equal( parseInt(bounds.getCenter().k), 37, "-122" );
+      });
+    </script>
+    <script>
+      QUnit.test( "extendMarkerListsBounds", function( assert ) {
+        var films = [
+                      {
+                          "pk": "5486eeec7f1855b6adb93c92", 
+                          "model": "locationstore.shoot", 
+                          "fields": {
+                              "location": [
+                                  [
+                                      "Randall Musuem", 
+                                      37.7643243, 
+                                      -122.4384077
+                                  ], 
+                                  [
+                                      "555 Market St.", 
+                                      37.78989, 
+                                      -122.39993
+                                  ], 
+                                  [
+                                      "200 block Market Street", 
+                                      37.7931329, 
+                                      -122.3965602
+                                  ], 
+                                  [
+                                      "Epic Roasthouse (399 Embarcadero)", 
+                                      37.7992627, 
+                                      -122.3976732
+                                  ], 
+                                  [
+                                      "City Hall", 
+                                      37.7793176, 
+                                      -122.4191405
+                                  ]
+                              ], 
+                              "title": "180"
+                          }
+                      },
+                      {
+                          "pk": "5486eeec7f1855b6adb93c95", 
+                          "model": "locationstore.shoot", 
+                          "fields": {
+                              "location": [
+                                  [
+                                      "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                      37.8081372, 
+                                      -122.414542
+                                  ]
+                              ], 
+                              "title": "50 First Dates"
+                          }
+                      }
+                    ]
+        var latLngLists = buildLatLngLists(films);
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+        var markerLists = createMarkerLists(map, latLngLists);
+        var infoWindowList = createInfoWindows(map, _.zip(films, markerLists));
+
+        assert.equal( infoWindowList.length, 2, "infoWindowLists length: 2" );
+        assert.equal( infoWindowList[0].length, 5, "First infoWindowList length: 5" );
+        assert.equal( infoWindowList[1].length, 1, "Second infoWindowList length: 1" );
+      });
+    </script>
+    <script>
+    QUnit.test( "make infoWindows", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var markerList = makeMarkerList(map, latLngList);
+
+      var infoWindowList = makeInfoWindows(map, [film, markerList])
+
+      assert.equal( infoWindowList.length, 5, "InfoWindow list length: 5");
+    });
+  </script>
+  <script>
+    QUnit.test( "makeInfoWindow", function( assert ) {
+      var location = [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                    ];
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var latLng = makeLatLng(location);
+      var marker = makeMarker(map, latLng);
+
+      var infoWindowContent = Handlebars.compile("<b>test title</b><br>{{[0]}}");
+
+      var infoWindow = makeInfoWindow(map, infoWindowContent, [location, marker])
+
+      assert.equal( infoWindow.getContent(), "<b>test title</b><br>Randall Musuem", "InfoWindow content" );
+    });
+  </script>
+  <script>
+    QUnit.test( "fillArray", function( assert ) {
+      var arr = fillArray(3, 3);
+      assert.deepEqual( arr, [3, 3, 3], "Testing fill array" );
+    });
+  </script>
+  <script>
+    QUnit.test( "checkQuery", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var nextQuery = {'query' : "",
+                        'refocus' : true};
+      var updateOrder = FILMLOCATIONS.updateOrder
+      checkQuery(nextQuery, map);
+
+      assert.equal( updateOrder + 1, FILMLOCATIONS.updateOrder, "Order should update" );
+    });
+  </script>
+  <script>
+    QUnit.test( "makeQuery", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var nextQuery = {'query' : "",
+                        'refocus' : true};
+      var updateOrder = FILMLOCATIONS.updateOrder
+      makeQuery(nextQuery, 1, map);
+
+      assert.equal( updateOrder, FILMLOCATIONS.updateOrder, "Order should not update" );
+    });
+  </script>
+  <script>
+    QUnit.test( "makeQueryAsync", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var mostRecentUpdate = FILMLOCATIONS.mostRecentUpdate
+      var nextQuery = {'query' : "a",
+                        'refocus' : true};
+      var updateOrder = FILMLOCATIONS.updateOrder
+      makeQuery(nextQuery, 1, map);
+
+      assert.equal( updateOrder, FILMLOCATIONS.updateOrder, "Order should not update" );
+      assert.equal( mostRecentUpdate, FILMLOCATIONS.mostRecentUpdate, "mostRecentUpdate should not update" );
+    });
+  </script>
+  <script>
+    QUnit.test( "processQuery", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var nextQuery = {'query' : "",
+                        'refocus' : true};
+      var updateOrder = FILMLOCATIONS.updateOrder
+      processQuery(updateOrder, [0, 1], false, map);
+      assert.deepEqual([0, 1], FILMLOCATIONS.oldMask, "oldMask should be [0, 1]" );
+    });
+  </script>
+  <script>
+    QUnit.test( "updateMarkers", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var updater = {'mask' : [0, 1],
+                      'refocus' : true};
+      
+      var updated = updateMarkers(updater, FILMLOCATIONS.markers, [1, 1], map);
+      assert.deepEqual([0, 1], updated.oldMask, "oldMask should be [0, 1]" );
+      assert.deepEqual(updater, updated.updater, "updater should remain unchanged" );
+      assert.equal(FILMLOCATIONS.markers, updated.markers, "markers should remain the same" );
+    });
+  </script>
+  <script>
+    QUnit.test( "makeAssociativeArray", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var aArray = makeAssociativeArray([1, 1], [0, 1], FILMLOCATIONS.markers);
+      
+      assert.equal(aArray[0]['mask'], 1, "should be 1" );
+      assert.equal(aArray[0]['oldMask'], 0, "should be 0" );
+      assert.equal(aArray[0]['markers'], FILMLOCATIONS.markers[0], "should be first set of markers" );
+      assert.equal(aArray[1]['mask'], 1, "should be 1" );
+      assert.equal(aArray[1]['oldMask'], 1, "should be 1" );
+      assert.equal(aArray[1]['markers'], FILMLOCATIONS.markers[1], "should be second set of markers" );
+    });
+  </script>
+  <script>
+    QUnit.test( "setMarkerListVisibility", function( assert ) {
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var markerUpdates = makeAssociativeArray([1, 1], [0, 1], FILMLOCATIONS.markers);
+      
+      var visibilityChecked = setMarkerListVisibility(markerUpdates);
+
+      assert.equal(visibilityChecked.length, 2, "should be 2" );
+    });
+  </script>
+  <script>
+    QUnit.test( "setVisibility no change", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var markerList = makeMarkerList(map, latLngList);
+      
+      var markerUpdate = {'mask' : 1, 'oldMask' : 1, 'markers' : markerList};
+
+      var visibilitySet = setVisibility(markerUpdate);
+
+      assert.equal(visibilitySet[0].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[1].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[2].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[3].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[4].getVisible(), true, "should be true" );
+    });
+  </script>
+  <script>
+    QUnit.test( "hideMarkerAndWindow", function( assert ) {
+
+      var films = [
+                    {
+                        "pk": "5486eeec7f1855b6adb93c92", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Randall Musuem", 
+                                    37.7643243, 
+                                    -122.4384077
+                                ], 
+                                [
+                                    "555 Market St.", 
+                                    37.78989, 
+                                    -122.39993
+                                ], 
+                                [
+                                    "200 block Market Street", 
+                                    37.7931329, 
+                                    -122.3965602
+                                ], 
+                                [
+                                    "Epic Roasthouse (399 Embarcadero)", 
+                                    37.7992627, 
+                                    -122.3976732
+                                ], 
+                                [
+                                    "City Hall", 
+                                    37.7793176, 
+                                    -122.4191405
+                                ]
+                            ], 
+                            "title": "180"
+                        }
+                    },
+                    {
+                        "pk": "5486eeec7f1855b6adb93c95", 
+                        "model": "locationstore.shoot", 
+                        "fields": {
+                            "location": [
+                                [
+                                    "Rainforest Caf\u0329 (145 Jefferson Street)", 
+                                    37.8081372, 
+                                    -122.414542
+                                ]
+                            ], 
+                            "title": "50 First Dates"
+                        }
+                    }
+                  ]
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+
+      initializeMap(films, map);
+
+      var location = films[0].fields.location[0]
+
+      var latLng = makeLatLng(location);
+      var marker = makeMarker(map, latLng)
+
+      var infoWindowContent = Handlebars.compile("<b>test title</b><br>{{[0]}}");
+
+      var infoWindow = makeInfoWindow(map, infoWindowContent, [location, marker])
+      infoWindow.open()
+
+      FILMLOCATIONS.lastWindow = infoWindow
+
+      marker = hideMarkerAndWindow(marker);
+
+      assert.equal( FILMLOCATIONS.lastWindow, undefined, "We expect value to be undefined" );
+      assert.equal( marker.getVisible(), false, "We expect value to be false");
+    });
+  </script>
+  <script>
+    QUnit.test( "makeMarkerList on", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var markerList = makeMarkerList(map, latLngList);
+      
+      var markerUpdate = {'mask' : 1, 'oldMask' : 0, 'markers' : markerList};
+
+      var visibilitySet = setVisibility(markerUpdate);
+
+      assert.equal(visibilitySet[0].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[1].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[2].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[3].getVisible(), true, "should be true" );
+      assert.equal(visibilitySet[4].getVisible(), true, "should be true" );
+    });
+  </script>
+  <script>
+    QUnit.test( "setVisibility off", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var markerList = makeMarkerList(map, latLngList);
+      
+      var markerUpdate = {'mask' : 0, 'oldMask' : 1, 'markers' : markerList};
+
+      var visibilitySet = setVisibility(markerUpdate);
+
+      assert.equal(visibilitySet[0].getVisible(), false, "should be false" );
+      assert.equal(visibilitySet[1].getVisible(), false, "should be false" );
+      assert.equal(visibilitySet[2].getVisible(), false, "should be false" );
+      assert.equal(visibilitySet[3].getVisible(), false, "should be false" );
+      assert.equal(visibilitySet[4].getVisible(), false, "should be false" );
+    });
+  </script>
+  <script>
+    QUnit.test( "extendUpdateBounds", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      var markerList = makeMarkerList(map, latLngList);
+      
+      var bounds = new google.maps.LatLngBounds();
+
+      var markerUpdates = [{'mask' : 1, 'oldMask' : 1, 'markers' : markerList}];
+
+      bounds = extendUpdateBounds(markerUpdates, bounds);
+
+      assert.equal(parseInt(bounds.getCenter().D), -122, "should be -122" );
+      assert.equal(parseInt(bounds.getCenter().k), 37, "should be 37" );
+    });
+  </script>
+  <script>
+    QUnit.test( "resizeMap", function( assert ) {
+      var film = {
+          "pk": "548788877f1855239dbe0f36", 
+          "model": "locationstore.film", 
+          "fields": {
+              "location": [
+                  [
+                      "Randall Musuem", 
+                      37.7643243, 
+                      -122.4384077
+                  ], 
+                  [
+                      "555 Market St.", 
+                      37.78989, 
+                      -122.39993
+                  ], 
+                  [
+                      "200 block Market Street", 
+                      37.7931329, 
+                      -122.3965602
+                  ], 
+                  [
+                      "Epic Roasthouse (399 Embarcadero)", 
+                      37.7992627, 
+                      -122.3976732
+                  ], 
+                  [
+                      "City Hall", 
+                      37.7793176, 
+                      -122.4191405
+                  ]
+              ], 
+              "title": "180"
+          }
+      };
+      var latLngList = buildLatLngList(film);
+      var map = new google.maps.Map(document.getElementById('map-canvas'),
+            {});
+      map.setZoom(1);
+      var markerList = makeMarkerList(map, latLngList);
+
+      var bounds = new google.maps.LatLngBounds();
+      bounds = extendBounds(markerList, bounds);
+
+      resizeMap(bounds, map);
+
+      assert.equal(map.getZoom(), 15, "should be 15" );
+</body>
+</html>
